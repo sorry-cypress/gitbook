@@ -22,7 +22,13 @@ Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress 
 
 ### 💎 Support
 
+Looking for help with installation and / or features? Check out our [Support](support-us.md) options
 
+### ❤️ Contribute
+
+*  ⭐️  the project on [GitHub](https://github.com/sorry-cypress/sorry-cypress.dev)
+* Donate via [GitHub Sponsors](https://github.com/sponsors/agoldis) or [Open Collective](https://opencollective.com/sorry-cypress)
+* Check out our [Contribution Guide](contributions.md)
 
 {% hint style="info" %}
 Please help us by taking a short 1-minute [survey](https://forms.gle/qxoTPFiokLWuc6eZ7). Thank you!
