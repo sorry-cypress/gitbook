@@ -43,9 +43,11 @@ You'll notice that different instances of cypress agent are running different te
 
 🎉 We've just finished the basic setup of sorry-cypress and ran our tests in parallel!
 
+
+
 {% hint style="info" %}
 * Use the same `--ci-build-id` to associate different cypress agents with the same run
-* You can run as many cypress agents as you want - each  will run a different test suite
+* You can run as many [cypress agents](../cypress-agent/parallelization-guide.md) as you want - each  will run a different test suite
 * This basic `director` configuration keeps all the test results in-memory. Restarting it wipes all the data
 {% endhint %}
 
