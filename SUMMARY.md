@@ -55,5 +55,6 @@
 * [Community Content](community-content.md)
 * [❤️ Contributions](contributions.md)
 * [Support](support-us.md)
+* [Legal](legal.md)
 * [FAQ](faq.md)
 
