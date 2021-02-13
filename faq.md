@@ -10,7 +10,7 @@ Yes. Have been used by dozens of companies around the globe.
 
 ## I need help, what do I do?
 
-Check out our [Support](support-us.md) page
+Check out our [Support](support.md) page
 
 ## I want to help, how?
 

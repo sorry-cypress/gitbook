@@ -22,7 +22,7 @@ Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress 
 
 ### 💎 Support
 
-Looking for help with installation and / or features? Check out our [Support](support-us.md) options
+Looking for help with installation and / or features? Check out our [Support](support.md) options
 
 ### ❤️ Contribute
 

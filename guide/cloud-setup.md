@@ -40,7 +40,7 @@ Congratulations! You have completed the guide.
 
 * ⭐️ us on [GitHub](https://github.com/sorry-cypress/sorry-cypress)
 * Learn how to [Contribute](../contributions.md)
-* Check out [Support](../support-us.md) ❤️ options
+* Check out [Support](../support.md) ❤️ options
 {% endhint %}
 
 
