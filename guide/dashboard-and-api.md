@@ -6,7 +6,7 @@ description: >-
 
 # Dashboard and API
 
-The [basic](basic-setup.md) setup of sorry-cypress is already quite useful - we can run cypress tests in parallel without any limitations.
+The [basic](get-started.md) setup of sorry-cypress is already quite useful - we can run cypress tests in parallel without any limitations.
 
 However, we want to see and store the tests results, explore errors, screenshots and videos.
 

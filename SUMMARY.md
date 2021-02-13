@@ -4,7 +4,7 @@
 
 ## Guide
 
-* [Get Started](guide/basic-setup.md)
+* [Get Started](guide/get-started.md)
 * [Dashboard and API](guide/dashboard-and-api.md)
 * [Cloud Setup](guide/cloud-setup.md)
 
