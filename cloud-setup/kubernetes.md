@@ -4,8 +4,6 @@ description: Sorry-cypress setup example using Kubernetes
 
 # Kubernetes
 
-
-
 {% hint style="warning" %}
 Under construction.
 
