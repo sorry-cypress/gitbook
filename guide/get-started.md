@@ -10,11 +10,11 @@ Let's start by running basic sorry-cypress configuration:
 docker run agoldis/sorry-cypress-director
 ```
 
-We've just launched `director` service on [`http://localhost:1234`](http://localhost:1234) - this service coordinates cypress runners and enables free parallelization.
+We've just launched `director` service on [`http://localhost:1234`](http://localhost:1234) - this service coordinates cypress agents and enables free parallelization.
 
 ### Re-configuring cypress agent
 
-Now we need to override cypress agents configuration to start using the local `director` service:
+We need to override cypress agents configuration to start using the local `director` service:
 
 ```bash
 # Let's find cypress runner location
@@ -32,7 +32,7 @@ production:
 
 ### Running cypress tests in parallel <a id="running-cypress-tests-in-parallel"></a>
 
-Now let's open several terminal windows and run `cypress` in each. Make sure you have several cypress tests defined in advance \(clone [https://github.com/agoldis/sorry-cypress-demo.git](https://github.com/agoldis/sorry-cypress-demo.git) if you don't have any test handy\).
+Let's open several terminal windows and run `cypress` in each. Make sure you have cypress tests defined in advance \(clone [https://github.com/agoldis/sorry-cypress-demo.git](https://github.com/agoldis/sorry-cypress-demo.git) if you don't have any test handy\).
 
 ```bash
 # run in each terminal
@@ -42,8 +42,6 @@ cypress run --parallel --record --key somekey --ci-build-id hello-cypress
 You'll notice that different instances of cypress agent are running different tests. 
 
 🎉 We've just finished the basic setup of sorry-cypress and ran our tests in parallel!
-
-
 
 {% hint style="info" %}
 * Use the same `--ci-build-id` to associate different cypress agents with the same run
