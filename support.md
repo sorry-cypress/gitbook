@@ -19,7 +19,7 @@ We provide the following support options for sorry-cypress users
 
 #### Community Support
 
-Check out our documentation, community publications and [GitHub issues](https://github.com/sorry-cypress/sorry-cypress/issues) for common solutions, also consider joining our public [Slack channel](https://sorry-cypress.slack.com/ssb/redirect).
+Check out our documentation, community publications and [GitHub issues](https://github.com/sorry-cypress/sorry-cypress/issues) for common solutions, also consider joining our public [Slack channel](https://sorry-cypress.slack.com/join/shared_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw#/).
 
 #### 💎 Pro Support
 
