@@ -81,5 +81,5 @@ Congratulations 🎉
 
 You have set up sorry-cypress on your local machine. Now you can run unlimited cypress tests and use the dashboard to browse the results.
 
-In the next article, we'll learn how to setup sorry-cypress in thefilescloud using different cloud providers.
+In the next article, we'll learn how to setup sorry-cypress in the cloud using different cloud providers.
 
