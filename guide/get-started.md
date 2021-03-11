@@ -39,7 +39,7 @@ Let's open several terminal windows and run `cypress` in each. Make sure you hav
 cypress run --parallel --record --key somekey --ci-build-id hello-cypress
 ```
 
-You'll notice that different instances of cypress agent are running different tests. 
+You'll notice that different instances of cypress agents are running different tests. 
 
 🎉 We've just finished the basic setup of sorry-cypress and ran our tests in parallel!
 
