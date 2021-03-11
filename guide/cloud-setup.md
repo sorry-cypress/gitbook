@@ -24,7 +24,7 @@ Now you can consider deploying it on your own infrastructure.
 
 Each service is available as a standalone Docker image at [https://hub.docker.com/u/agoldis](https://hub.docker.com/u/agoldis). The images are automatically updated on each release and tagged in accordance with GitHub release tags.
 
-Sorry-cypress has been successfully used by hundreds of organizations of different sizes on different platforms, e.g.:
+Sorry-cypress has been successfully used by many organizations of different sizes on different platforms, e.g.:
 
 * Heroku
 * AWS
@@ -40,7 +40,7 @@ Congratulations! You have completed the guide.
 
 * ⭐️ us on [GitHub](https://github.com/sorry-cypress/sorry-cypress)
 * Learn how to [Contribute](../contributions.md)
-* If you're stuck , check out [Support](../support.md) options
+* If you're stuck, check out [Support](../support.md) options
 {% endhint %}
 
 
