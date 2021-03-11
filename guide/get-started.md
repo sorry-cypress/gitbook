@@ -7,7 +7,7 @@ description: Get started with a free parallelization using sorry-cypress
 Let's start by running basic sorry-cypress configuration:
 
 ```text
-docker run agoldis/sorry-cypress-director
+docker run -p 1234:1234 agoldis/sorry-cypress-director
 ```
 
 We've just launched `director` service on [`http://localhost:1234`](http://localhost:1234) - this service coordinates cypress agents and enables free parallelization.
