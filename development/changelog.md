@@ -29,7 +29,7 @@
 * "Finished" run changing its state to "started" when new machine is joined after finish [\#215](https://github.com/sorry-cypress/sorry-cypress/issues/215)
 * Test duration time continuous to count [\#245](https://github.com/sorry-cypress/sorry-cypress/issues/245)
 * Enhance Generic WebHook [\#248](https://github.com/sorry-cypress/sorry-cypress/issues/248)
-* 
+
 ## Older Versions
 
 [Github Releases](https://github.com/sorry-cypress/sorry-cypress/releases)
