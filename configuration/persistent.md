@@ -94,5 +94,5 @@ Director and API services work with MongoDB as a persistency layer. It's up to y
 
 ### Redis \(optional\)
 
-Having a redis connection available allows the director to use to run delayed tasks. Delayed tasks are being used to implement [Inactivity Timeout](../concepts/inactivity-timeout.md) for runs.  When set, the director will try to set up delayed tasks using the provided redis connection, instead of in-memory timeouts.
+Having a redis connection available allows the director to use to run delayed tasks. Delayed tasks are being used to implement [Inactivity Timeout](../concepts/inactivity-timeout.md) for runs.  When set, the director would set up delayed tasks using the provided redis connection, instead of volatile memory timers .
 

@@ -36,8 +36,8 @@
 
 ## Concepts
 
-* [Inactivity Timeout](concepts/inactivity-timeout.md)
 * [Parallelization Explained](concepts/parallelization-guide.md)
+* [Inactivity Timeout](concepts/inactivity-timeout.md)
 
 ## Cypress Agent
 
