@@ -1,6 +1,6 @@
 # Changelog
 
-## 15.0.0 - 2042-12-03
+## 1.0.0-rc.0
 
 ### Fixed
 
@@ -13,7 +13,11 @@
 ### Added
 
 * 
+## Older Versions
 
+[Github Releases](https://github.com/sorry-cypress/sorry-cypress/releases)
+
+### 
 
 
 
