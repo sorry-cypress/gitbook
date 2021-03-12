@@ -56,7 +56,7 @@
 
 ## Development
 
-* [Untitled](development/untitled.md)
+* [Changelog](development/untitled.md)
 * [Development Guide](development/development-guide.md)
 
 ---
