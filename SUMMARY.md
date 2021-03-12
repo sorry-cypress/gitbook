@@ -24,7 +24,9 @@
 * [Full Setup](configuration/persistent.md)
 * [Director Service](configuration/director-configuration.md)
 * [API Service](configuration/api-configuration.md)
-* [Web Dashboard](configuration/dashboard-configuration.md)
+* [Web Dashboard](configuration/dashboard-configuration/README.md)
+  * [Configuration](configuration/dashboard-configuration/configuration.md)
+  * [Projects](configuration/dashboard-configuration/projects.md)
 
 ## Integrations
 
@@ -32,9 +34,13 @@
 * [Slack Integration](integrations/slack-integration.md)
 * [GitHub Integration](integrations/github-integration.md)
 
+## Concepts
+
+* [Inactivity Timeout](concepts/inactivity-timeout.md)
+* [Parallelization Explained](concepts/parallelization-guide.md)
+
 ## Cypress Agent
 
-* [Parallelization Explained](cypress-agent/parallelization-guide.md)
 * [Agent Configuration](cypress-agent/configuring-cypress-agent.md)
 * [CLI One Liners](cypress-agent/cli-one-liners.md)
 * [Executable Wrapper](cypress-agent/wrapper.md)

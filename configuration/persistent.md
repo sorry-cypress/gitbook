@@ -54,7 +54,7 @@ The dashboard allows end-users to interact with sorry-cypress using browser and 
 * set projects configuration like WebHooks, Slack and GitHub integration
 * create and delete entries \(projects, runs\)
 
-Also see [Dashboard Configuration](dashboard-configuration.md) options.
+Also see [Dashboard Configuration](dashboard-configuration/) options.
 
 ### Recordings Storage
 
@@ -66,7 +66,7 @@ We need a remote storage to store the generated screenshots and videos. Director
 
 Sorry-cypress integrates with the major remote cloud storage solutions:
 
-* Dedicated iunte for AWS S3 
+* AWS S3
 * Minio integration \(via [Minio S3 Gateway](https://docs.min.io/docs/minio-gateway-for-s3.html)\) that is compatible with
   * Google Cloud Storage
   * IBM COS
@@ -91,4 +91,8 @@ Refer to specific cloud platform instructions for remote cloud storage configura
 Director and API services work with MongoDB as a persistency layer. It's up to you to choose MongoDB solution that works for your needs. 
 
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is a simple and popular managed solution that also has a free tier.
+
+### Redis \(optional\)
+
+Having a redis connection available allows director to use to run delayed tasks. Delayed tasks are being used to implement [Inactivity Timeout](../concepts/inactivity-timeout.md) for runs.  When set, director will try to set up delayed tasks using the provided redis connection, instead of in-memory timeouts.
 

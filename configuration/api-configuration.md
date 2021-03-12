@@ -6,7 +6,7 @@ description: API service configuration options
 
 `PORT=1234`
 
-Director will listen on that port
+API service  port
 
 
 
