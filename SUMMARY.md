@@ -30,9 +30,11 @@
 
 ## Integrations
 
+* [Events](integrations/events.md)
 * [Webhooks](integrations/webhooks.md)
 * [Slack Integration](integrations/slack-integration.md)
 * [GitHub Integration](integrations/github-integration.md)
+* [Bitbucket Integration](integrations/bitbucket-integration.md)
 
 ## Concepts
 
