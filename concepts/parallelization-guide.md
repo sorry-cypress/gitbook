@@ -1,8 +1,8 @@
 # Parallelization Explained
 
-Parallelizing cypress tests means running different tests with multiple cypress agents at the same time. The [official Cypress documentation](https://docs.cypress.io/guides/guides/parallelization.html) greatly explains why is it good. In short, it allows to greately reduce the overall time of running your tests.
+Parallelizing cypress tests means running different tests with multiple cypress agents at the same time. The [official Cypress documentation](https://docs.cypress.io/guides/guides/parallelization.html) greatly explains why is it good. In short, it allows to greatly reduce the overall time of running your tests.
 
-![Parallelization Diagram](../.gitbook/assets/parallelization-diagram.png)
+![Parallelization diagram](../.gitbook/assets/parallelization.diagram.png)
 
 When an agent is configured to run tests in parallel, it tries to connect to a remote service to coordinate the tests running order. Sorry-cypress is such a service. 
 
