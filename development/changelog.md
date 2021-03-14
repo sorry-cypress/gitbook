@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.1
+
+### Fixed
+
+* Prevent hooks for in-memory driver
+
 ## 1.0.0-rc.0
 
 ### Added
