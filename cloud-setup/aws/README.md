@@ -35,7 +35,7 @@ The artifacts created by the stack are:
 * Director URL - this is what you provide when [configure cypress agent to use the alternative dashboard.](../../cypress-agent/configuring-cypress-agent.md)
 * Dashboard URL - web dashboard access URL
 * API URL - GraphQL API access URL
-* [S3 storage bucket]() - for storing tests video recordings and screenshots
+* S3 Bucket - for storing tests video recordings and screenshots
 * Cloudwatch log groups for debugging and troubleshooting
 
 ### Template Configuration
