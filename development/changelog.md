@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.2
+
+### Fixed
+
+* Support cypress 6.7.0
+
 ## 1.0.0-rc.1
 
 ### Fixed
