@@ -28,9 +28,8 @@ Looking for help with installation and / or features? Check out our [Support](su
 * Donate via [GitHub Sponsors](https://github.com/sponsors/agoldis) or [Open Collective](https://opencollective.com/sorry-cypress)
 * Check out our [Contribution Guide](contributions.md)
 
-{% hint style="info" %}
-Please help us by taking a short 1-minute [survey](https://forms.gle/qxoTPFiokLWuc6eZ7). Thank you!
-{% endhint %}
+### 🤙Stay in touch
 
-
+* Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latests updates
+* Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
 
