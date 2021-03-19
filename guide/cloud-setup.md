@@ -41,9 +41,8 @@ Congratulations! You have completed the guide.
 * ⭐️ us on [GitHub](https://github.com/sorry-cypress/sorry-cypress)
 * Learn how to [Contribute](../contributions.md)
 * If you're stuck, check out [Support](../support.md) options
+* Follow [@sorrycypress](https://twitter.com/sorrycypress/) to get the latests updates
 {% endhint %}
-
-
 
 
 
