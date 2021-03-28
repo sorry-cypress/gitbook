@@ -46,7 +46,6 @@
 * [cy2](cypress-agent/cy2.md)
 * [Agent Configuration](cypress-agent/configuring-cypress-agent.md)
 * [CLI One Liners](cypress-agent/cli-one-liners.md)
-* [Executable Wrapper](cypress-agent/wrapper.md)
 
 ## CI
 
