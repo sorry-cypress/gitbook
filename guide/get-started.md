@@ -14,6 +14,10 @@ We've just launched `director` service on [`http://localhost:1234`](http://local
 
 ### Re-configuring cypress agent
 
+{% hint style="info" %}
+**New!** You can easily change cypress API server URL by using[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](../cypress-agent/cy2.md)
+{% endhint %}
+
 We need to override cypress agents configuration to start using the local `director` service:
 
 ```bash
