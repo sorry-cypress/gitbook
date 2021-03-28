@@ -14,10 +14,6 @@ We've just launched `director` service on [`http://localhost:1234`](http://local
 
 ### Re-configuring cypress agent
 
-{% hint style="info" %}
-**New!** You can easily change cypress API server URL by using[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](../cypress-agent/cy2.md)
-{% endhint %}
-
 We need to override cypress agents configuration to start using the local `director` service:
 
 ```bash
@@ -33,6 +29,10 @@ production:
   # api_url: "https://api.cypress.io/"
   api_url: "http://localhost:1234/"
 ```
+
+{% hint style="info" %}
+**New!** You can easily change cypress API server URL by using[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](../cypress-agent/cy2.md)
+{% endhint %}
 
 ### Running cypress tests in parallel <a id="running-cypress-tests-in-parallel"></a>
 
