@@ -4,7 +4,11 @@ description: Changing cypress agent configuration
 
 # Agent Configuration
 
-1,Find cypress installation path
+{% hint style="info" %}
+**New!** You can easily change cypress API server URK by using NPM[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](cy2.md)
+{% endhint %}
+
+Find cypress installation path
 
 ```bash
 DEBUG=cypress:* cypress version
@@ -29,7 +33,7 @@ production:
 ```
 
 {% hint style="info" %}
-Make sure to change the configiration on every machine that runs cypress test in your CI environment
+Make sure to change the configuration on every machine that runs cypress test in your CI environment
 {% endhint %}
 
 
