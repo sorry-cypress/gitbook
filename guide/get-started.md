@@ -31,7 +31,7 @@ production:
 ```
 
 {% hint style="info" %}
-**New!** You can easily change cypress API server URL by using[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](../cypress-agent/cy2.md)
+**New!** You can easily set cypress API server URL by using[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](../cypress-agent/cy2.md)
 {% endhint %}
 
 ### Running cypress tests in parallel <a id="running-cypress-tests-in-parallel"></a>
