@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.3
+
+### Fixed
+
+* Support auto-detection of `ciBuildId` for major CI providers. [Issue \#310](https://github.com/sorry-cypress/sorry-cypress/issues/310)
+
 ## 1.0.0-rc.2
 
 ### Fixed
