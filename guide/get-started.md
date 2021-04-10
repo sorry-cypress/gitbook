@@ -29,7 +29,7 @@ npm run debug
 "cypress:cli Reading binary package.json from: /Users/agoldis/Library/Caches/Cypress/7.0.1/Cypress.app/Contents/Resources/app/package.json +0ms"
 
 # Now let's override cypress agent configuration
-vim /Users/agoldis/Library/Caches/Cypress/6.2.1/Cypress.app/Contents/Resources/app/packages/server/config/app.yml
+vim /Users/agoldis/Library/Caches/Cypress/7.0.1/Cypress.app/Contents/Resources/app/packages/server/config/app.yml
 production:
   # api_url: "https://api.cypress.io/"
   api_url: "http://localhost:1234/"
