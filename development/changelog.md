@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.4
+
+### Added
+
+* Add slack hook filters and advanced formatting [\#309](https://github.com/sorry-cypress/sorry-cypress/pull/309) by [@DeniDoman](https://github.com/DeniDoman)
+
 ## 1.0.0-rc.3
 
 ### Fixed
