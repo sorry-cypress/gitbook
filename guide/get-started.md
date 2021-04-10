@@ -18,10 +18,15 @@ We need to override cypress agents configuration to start using the local `direc
 
 ```bash
 # Let's find cypress runner location
-DEBUG=cypress:* cypress version
+# Create script in the package.json of your project: 
+# { "debug": "DEBUG=cypress:* cypress version" }
+
+# execute the script using npm or yarn
+npm run debug
+
 
 # Examine the output, note the path
-"cypress:cli Reading binary package.json from: /Users/agoldis/Library/Caches/Cypress/6.2.1/Cypress.app/Contents/Resources/app/package.json +0ms"
+"cypress:cli Reading binary package.json from: /Users/agoldis/Library/Caches/Cypress/7.0.1/Cypress.app/Contents/Resources/app/package.json +0ms"
 
 # Now let's override cypress agent configuration
 vim /Users/agoldis/Library/Caches/Cypress/6.2.1/Cypress.app/Contents/Resources/app/packages/server/config/app.yml
