@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0-rc.5
+
+### Changed
+
+* Use `@graphql-tools/merge` to allow breaking down schema definitions to multiple files
+* Remove aggregation stages for `runsFeed` to improve performance
+
 ## 1.0.0-rc.4
 
 ### Added
