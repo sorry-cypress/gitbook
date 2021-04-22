@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.7
+
+### Fixed
+
+* Validate possibly empty results when checking run completion. [Issue \#317](https://github.com/sorry-cypress/sorry-cypress/issues/317)
+
 ## 1.0.0-rc.6
 
 ### Fixed
