@@ -92,6 +92,20 @@ Director and API services work with MongoDB as a persistency layer. It's up to y
 
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is a simple and popular managed solution that also has a free tier.
 
+You can set an automatic document expiry time (ttl) on the MongoDB indexes by setting the following environment variables:
+
+The Runs index 
+`MONGO_RUNS_SECONDS=86400`
+
+The Instances index
+`MONGO_INSTANCES_SECONDS=86400`
+
+The Projects index
+`MONGO_PROJECTS_SECONDS=86400`
+
+The value is in seconds and will be used by MongoDB to automatically remove documents from the index once their age reaches this value.
+
+
 ### Redis \(optional\)
 
 Having a redis connection available allows the director to use to run delayed tasks. Delayed tasks are being used to implement [Inactivity Timeout](../concepts/inactivity-timeout.md) for runs.  When set, the director would set up delayed tasks using the provided redis connection, instead of volatile memory timers .
