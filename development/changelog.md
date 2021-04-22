@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.6
+
+### Fixed
+
+* Return `application/javascript` for `mjs` files server by dashboard `nginx` server. [Issue \#321](https://github.com/sorry-cypress/sorry-cypress/issues/321)
+
 ## 1.0.0-rc.5
 
 ### Changed
