@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0-rc.8
+
+### Changed
+
+* Remove mongo `$map` usages to simpler syntax and AWS DocumentDB compatibility. [PR \#324](https://github.com/sorry-cypress/sorry-cypress/pull/324).
+* Support monorepos for BitBucket hooks. [PR \#325](https://github.com/sorry-cypress/sorry-cypress/pull/325).
+
 ## 1.0.0-rc.7
 
 ### Fixed
