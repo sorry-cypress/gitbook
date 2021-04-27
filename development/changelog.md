@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.0-rc.9
+
+### Fixed
+
+* Successfully fire slack hooks without commit data. [\#328](https://github.com/sorry-cypress/sorry-cypress/pull/328) by [@pbeckham](https://github.com/pbeckham)
+* Restore generic hooks functionality
+
+### Changed
+
+* Refactor - use `runSingleReporter` and move files [b296289](https://github.com/sorry-cypress/sorry-cypress/commit/b2962892c743219e43fdf289617d73b20dd06b2f)
+
 ## 1.0.0-rc.8
 
 ### Changed
