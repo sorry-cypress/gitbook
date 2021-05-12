@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.0.0-rc.10
+
+### Fixed
+
+* Correctly extract `ciBuildId` from Gitlab CI. [\#343](https://github.com/sorry-cypress/sorry-cypress/pull/343) by [@boxofcrates](https://github.com/boxofcrates)
+* Fix support to projects with slashes. [\#340](https://github.com/sorry-cypress/sorry-cypress/pull/340) by [@fsmaia](https://github.com/fsmaia)
+
 ## 1.0.0-rc.9
 
 ### Fixed
