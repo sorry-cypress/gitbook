@@ -12,27 +12,17 @@ docker run -p 1234:1234 agoldis/sorry-cypress-director
 
 We've just launched `director` service on [`http://localhost:1234`](http://localhost:1234) - this service coordinates cypress agents and enables free parallelization.
 
-### Re-configuring cypress agent
+### Install cy2 and cypress
 
-We need to override cypress agents configuration to start using the local `director` service:
+`cy2` is a  tiny [NPM package](https://www.npmjs.com/package/cy2) that changes cypress API server configuration on-the-fly using  environment variable `CYPRESS_API_URL`
+
+`cy2` passes down all the CLI flags to `cypress` , so you can just use `cy2` instead of `cypress` .
 
 ```bash
-# Let's find cypress runner location
-DEBUG=cypress:* cypress version
-
-# Examine the output, note the path
-"cypress:cli Reading binary package.json from: /Users/agoldis/Library/Caches/Cypress/6.2.1/Cypress.app/Contents/Resources/app/package.json +0ms"
-
-# Now let's override cypress agent configuration
-vim /Users/agoldis/Library/Caches/Cypress/6.2.1/Cypress.app/Contents/Resources/app/packages/server/config/app.yml
-production:
-  # api_url: "https://api.cypress.io/"
-  api_url: "http://localhost:1234/"
+npm install cy2 cypress
+export CYPRESS_API_URL="http://localhost:1234/"
+cy2 run --record --key XXX --parallel --ci-build-id `date +%s`
 ```
-
-{% hint style="info" %}
-**New!** You can easily set cypress API server URL by using[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](../cypress-agent/cy2.md)
-{% endhint %}
 
 ### Running cypress tests in parallel <a id="running-cypress-tests-in-parallel"></a>
 
@@ -40,7 +30,7 @@ Let's open several terminal windows and run `cypress` in each. Make sure you hav
 
 ```bash
 # run in each terminal
-cypress run --parallel --record --key somekey --ci-build-id hello-cypress
+CYPRESS_API_URL="http://localhost:1234/" cy2 run --parallel --record --key somekey --ci-build-id hello-cypress
 ```
 
 You'll notice that different instances of cypress agents are running different tests. 

@@ -7,15 +7,15 @@ description: 'Running sorry-cypress in cloud - AWS, Google Cloud, K8s, Heroku'
 ### Cloud Demo
 
 {% hint style="info" %}
-This demo runs on a free Heroku instance, it takes a minute to wake it up when you first navigate 
+This demo runs on a free public Heroku instance, it takes a minute to wake it up when you first navigate 
 {% endhint %}
 
 Visit [https://sorry-cypress-demo.herokuapp.com/](https://sorry-cypress-demo.herokuapp.com/) to see the web dashboard in action. 
 
-[Reconfigure your cypress agent](../cypress-agent/cli-one-liners.md) to use `https://sorry-cypress-demo-director.herokuapp.com/`.
+Start sending your cypress tests to the demo dashboard by using the following command:
 
-```bash
-sed -i -e 's|api_url:.*$|api_url: "https://sorry-cypress-demo-director.herokuapp.com/"|g' /*/.cache/Cypress/*/Cypress/resources/app/packages/server/config/app.yml
+```
+CYPRESS_API_URL="https://sorry-cypress-demo-director.herokuapp.com/" cy2 run --parallel --record --key somekey --ci-build-id hello-cypress 
 ```
 
 ### Cloud Providers

@@ -1,6 +1,6 @@
 # cy2
 
-`cy2` is an experimental, tiny \(just 4KB\) [NPM package](https://www.npmjs.com/package/cy2) that changes cypress API server configuration on-the-fly using  environment variable `CYPRESS_API_URL`
+`cy2` is a tiny [NPM package](https://www.npmjs.com/package/cy2) that changes cypress API server configuration on-the-fly using  environment variable `CYPRESS_API_URL`
 
 The command passes down to cypress all the CLI flags, so you can just use it instead of `cypress` .
 
