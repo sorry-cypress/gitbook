@@ -5,7 +5,7 @@ description: One-liners to easily change cypress configuration
 # CLI One Liners
 
 {% hint style="info" %}
-**New!** You can easily change cypress API server URL by using NPM[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](cy2.md)
+You can easily change cypress API server URL by using NPM[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](cy2.md)
 {% endhint %}
 
 Use this CLI one-liner to change cypress configuration for all installed versions of cypress

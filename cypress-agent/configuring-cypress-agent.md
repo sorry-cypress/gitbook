@@ -5,7 +5,7 @@ description: Changing cypress agent configuration
 # Agent Configuration
 
 {% hint style="info" %}
-**New!** You can easily set cypress API server URL by using NPM[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](cy2.md)
+You can easily set cypress API server URL by using NPM[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](cy2.md)
 {% endhint %}
 
 Find cypress installation path
