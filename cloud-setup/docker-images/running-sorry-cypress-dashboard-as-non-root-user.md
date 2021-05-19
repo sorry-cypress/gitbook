@@ -48,7 +48,17 @@ pid /tmp/nginx.pid;
 access_log /tmp/access.log main;
 ```
 
-3. Add these directives in http section:
+3. Add these directives in `http` section:
+
+```text
+http {
+    client_body_temp_path /tmp/client_temp;
+    proxy_temp_path       /tmp/proxy_temp_path;
+    fastcgi_temp_path     /tmp/fastcgi_temp;
+    uwsgi_temp_path       /tmp/uwsgi_temp;
+    scgi_temp_path        /tmp/scgi_temp;
+}
+```
 
 `default.config`
 
