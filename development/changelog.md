@@ -8,7 +8,7 @@
 
 ### Changed
 
-* Refactor instance results retrieval - use GQL query resolved. Increate auto-refresh rate to 5 seconds. [\#366](https://github.com/sorry-cypress/sorry-cypress/pull/336) by [@anishkargaonkar](https://github.com/anishkargaonkar)
+* Refactor instance results retrieval - use GQL query resolved. Increate auto-refresh rate to 5 seconds. [\#336](https://github.com/sorry-cypress/sorry-cypress/pull/336) by [@anishkargaonkar](https://github.com/anishkargaonkar)
 
 ## 1.0.0-rc.10
 
