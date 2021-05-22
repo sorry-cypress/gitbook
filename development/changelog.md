@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.0-rc.11
+
+### Added
+
+* Show retry count on run details page. [\#350](https://github.com/sorry-cypress/sorry-cypress/pull/350) by [@boxofcrates](https://github.com/boxofcrates)
+
+### Changed
+
+* Refactor instance results retrieval - use GQL query resolved. Increate auto-refresh rate to 5 seconds. [\#366](https://github.com/sorry-cypress/sorry-cypress/pull/336) by [@anishkargaonkar](https://github.com/anishkargaonkar)
+
 ## 1.0.0-rc.10
 
 ### Fixed
