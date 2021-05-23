@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.0-rc.12
+
+### Fixed
+
+* Return `runId` with `getInstance` query. [Issue \#357](https://github.com/sorry-cypress/sorry-cypress/issues/357).
+
 ## 1.0.0-rc.11
 
 ### Added
