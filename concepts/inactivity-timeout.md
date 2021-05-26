@@ -1,5 +1,9 @@
 # Inactivity Timeout
 
+{% hint style="warning" %}
+`inactivityTimeout` was deprecated in [v1.0.0](../development/changelog.md#1-0-0) in favour of a global runs timeout, that one can set in project settings. 
+{% endhint %}
+
 `Inactivity Timeout` is a setting that defines how long should we wait until checking for a run's inactivity.
 
 Having an "inactivity timeout" is a way to deal with:
