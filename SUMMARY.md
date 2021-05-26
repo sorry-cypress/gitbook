@@ -40,7 +40,7 @@
 ## Concepts
 
 * [Parallelization Explained](concepts/parallelization-guide.md)
-* [Inactivity Timeout](concepts/inactivity-timeout.md)
+* [Inactivity Timeout \[deprecated\]](concepts/inactivity-timeout.md)
 
 ## Cypress Agent
 
