@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.0.0 🎉
+
+### Changed
+
+* remove inactivity timeout implementation
+* use runs timeout via project settings
+* add `RUN_TIMEDOUT` hook - based on the project runs timeout settings
+* emit `RUN_FINISH` for each group in a run
+
 ## 1.0.0-rc.12
 
 ### Fixed
