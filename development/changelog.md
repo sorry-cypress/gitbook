@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.0.1
+
+### Changes
+
+* Serve css and fonts locally [9e5c3a5](https://github.com/sorry-cypress/sorry-cypress/commit/9e5c3a5b28f6660c58bf7d81739c31114e44e640). Closes [\#363](https://github.com/sorry-cypress/sorry-cypress/issues/363)
+
+### Fixed
+
+* Allow skipping --parallel flag [d7a64b0](https://github.com/sorry-cypress/sorry-cypress/commit/d7a64b0fba4533d5b282e087f907f5304d52eda2). Closes [\#365](https://github.com/sorry-cypress/sorry-cypress/issues/365)
+
 ## 1.0.0 🎉
 
 ### Changed
