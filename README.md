@@ -28,8 +28,19 @@ Looking for help with installation and / or features? Check out our [Support](su
 * Donate via [GitHub Sponsors](https://github.com/sponsors/agoldis) or [Open Collective](https://opencollective.com/sorry-cypress)
 * Check out our [Contribution Guide](contributions.md)
 
-### 🤙Stay in touch
+### 🤙 Stay in touch
 
 * Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latests updates
 * Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
+
+### ⚡️ Managed Cypress Tests Dashboard
+
+Not interested in on-premise setup? Check out the managed cypress tests dashboard at [https://currents.dev](https://currents.dev)
+
+* inexpensive - starting $18/month
+* seamless integration
+* no configuration - start running within minutes 
+* restricted access
+* teams support
+* and more...
 

@@ -44,7 +44,9 @@ Congratulations! You have completed the guide.
 * Follow [@sorrycypress](https://twitter.com/sorrycypress/) to get the latests updates
 {% endhint %}
 
-
+{% hint style="info" %}
+New! Managed cypress tests dashboard starting $18/month [https://currents.dev](https://currents.dev)
+{% endhint %}
 
 
 
