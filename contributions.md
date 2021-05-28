@@ -17,5 +17,13 @@ We accept donations on the following platforms
 * Share your story and integration details with the community
 * Share a message on social networks using \#sorry-cypress tag
 
+### Start Using Managed Cypress Tests Dashboard
+
+We've recently launched [https://currents.dev](https://currents.dev) - a managed cypress tests dashboard based on sorry-cypress. By using currents.dev you're supporting sorry-cypress:
+
+* we port features and improvements between projects
+* we have resources to hire developers for help
+* we are able to invest more time into the project
+
 Thank you!
 
