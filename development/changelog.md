@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.2
+
+### Fixed
+
+* fix: handle nullable results.tests [a469c76](https://github.com/sorry-cypress/sorry-cypress/commit/a469c76a586a35e71c8756f269aadb81fb375b48). Closes [\#360](https://github.com/sorry-cypress/sorry-cypress/issues/360).
+
 ## 1.0.1
 
 ### Changes
