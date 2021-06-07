@@ -36,3 +36,9 @@ PORT=1234
 To achieve parallelization for the same CI run, make sure that all CI machine are using the same `sorry-cypress-director` service and use the same `--ci-build-id` flag
 {% endhint %}
 
+{% hint style="info" %}
+`--key` flag has no effect - all keys are accepted for the basic setup. Same for cypress `projectId`
+{% endhint %}
+
+
+
