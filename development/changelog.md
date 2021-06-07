@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.3
+
+### Fixed
+
+* fix: show correct duration in specs list [98ae7be](https://github.com/sorry-cypress/sorry-cypress/commit/98ae7be35005eadd0981455396cfe608f998fc2b). Closes [\#374](https://github.com/sorry-cypress/sorry-cypress/issues/374).
+* fix: heroku build build process [a658d3f](https://github.com/sorry-cypress/sorry-cypress/commit/a658d3f34dd988a9b281dfbe659626473e47f665). Closes [\#373](https://github.com/sorry-cypress/sorry-cypress/issues/373).
+
+### Dependecies
+
+* deps: dns-packet-1.3.4 [1358c74](https://github.com/sorry-cypress/sorry-cypress/commit/1358c7431babac346bca8f79c591c0d6a305ce84)
+
 ## 1.0.2
 
 ### Fixed
