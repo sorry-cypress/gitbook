@@ -39,13 +39,13 @@ Set the execution driver for Director service. Possible values are:
 
 `MONGODB_URI="mongodb://mongo:27017"`
 
-MongoDB connection URL, only used by "mongo" execution driver.
+MongoDB connection URL, requied if using "mongo" execution driver.
 
 
 
 `MONGODB_DATABASE="sorry-cypress"`
 
-MongoDB database name, only used by "mongo" execution driver.
+MongoDB database name, required if using "mongo" execution driver.
 
 ### Remote Storage Configuration
 
