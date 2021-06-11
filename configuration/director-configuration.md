@@ -39,13 +39,31 @@ Set the execution driver for Director service. Possible values are:
 
 `MONGODB_URI="mongodb://mongo:27017"`
 
-MongoDB connection URL, requied if using "mongo" execution driver.
+MongoDB connection URL, required if using "mongo" execution driver.
 
 
 
 `MONGODB_DATABASE="sorry-cypress"`
 
 MongoDB database name, required if using "mongo" execution driver.
+
+
+
+`MONGODB_AUTH_MECHANISM`
+
+MongoDB authentication mechanism. See [MongoDB Authentication](https://mongodb.github.io/node-mongodb-native/3.0/tutorials/connect/authenticating/).
+
+
+
+`MONGODB_AUTH_USER`
+
+MongoDB authentication user, when authentication mechanism is `DEFAULT`.
+
+
+
+`MONGODB_AUTH_PASSWORD`
+
+MongoDB authentication `password`, when authentication mechanism is `DEFAULT`.
 
 ### Remote Storage Configuration
 
