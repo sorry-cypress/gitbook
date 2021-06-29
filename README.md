@@ -57,7 +57,6 @@ Sorry Cypress is 100% open source project, if you're happy to manage your own in
 | Permissions | ❌ | ✅ | ✅ |
 | Team Management  | ❌ | ✅ | ✅ |
 | Multiple Projects | ✅ | ✅ | ✅ |
-| Reporting  _coming soon_ | ❌ | ❌ | ✅ |
+| Reporting  | ❌ | ❌ | ✅ |
 | On-premise | ✅ | ✅ | ❌ |
-| Easy to integrate | ✅ | ✅ | ✅ |
 
