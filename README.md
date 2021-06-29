@@ -41,7 +41,7 @@ Sorry Cypress is 100% open source project, if you're happy to manage your own in
 
 |  | Sorry Cypress | Currents.dev | Cypress.io |
 | :--- | :--- | :--- | :--- |
-| Price | $0+/mo | $18+/mo | $75+/mo |
+| Price | $0+/mo | [$18+/mo](https://currents.dev) | $75+/mo |
 | Parallelization | ✅ | ✅ | ✅ |
 | Optimized Ordering | ❌ | ✅ | ✅ |
 | Tests Grouping | ✅ | ✅ | ✅ |
