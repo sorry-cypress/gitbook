@@ -33,14 +33,31 @@ Looking for help with installation and / or features? Check out our [Support](su
 * Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latests updates
 * Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
 
-### ⚡️ Managed Cypress Tests Dashboard
+### ⚡️ Sorry Cypress in Cloud
 
-Not interested in on-premise setup? Check out the managed cypress tests dashboard at [https://currents.dev](https://currents.dev)
+Sorry Cypress is 100% open source project, if you're happy to manage your own infrastructure, go ahead and check out our [guides](guide/get-started.md) and installation instructions.
 
-* inexpensive - starting $18/month
-* seamless integration
-* no configuration - start running within minutes 
-* restricted access
-* teams support
-* and more...
+[https://currents.dev](https://currents.dev) is an alternative, "sorry-cypress"-based, managed dashboard in cloud. It is an affordable alternative to Cypress Dashboard, that focuses on simplicity and ease-of-use, while providing the same set of core features as the original Cypress Dashboard.
+
+|  | Sorry Cypress | Currents.dev | Cypress.io |
+| :--- | :--- | :--- | :--- |
+| Price | $0+/mo | $18+/mo | $75+/mo |
+| Parallelization | ✅ | ✅ | ✅ |
+| Optimized Ordering | ❌ | ✅ | ✅ |
+| Tests Grouping | ✅ | ✅ | ✅ |
+| Flaky Tests Detection | ✅ | ✅ | ✅ |
+| Screenshots | ✅ | ✅ | ✅ |
+| Videos | ✅ | ✅ | ✅ |
+| Errors Stack Trace | ✅ | ✅ | ✅ |
+| Run/Spec/Test Status | ✅ | ✅ | ✅ |
+| Run/Spec/Test Duration | ✅ | ✅ | ✅ |
+| GitHub | ✅ | ✅ | ✅ |
+| Slack | ✅ | ✅ | ✅ |
+| Webhooks | ✅ | ✅ | ❌ |
+| Permissions | ❌ | ✅ | ✅ |
+| Team Management  | ❌ | ✅ | ✅ |
+| Multiple Projects | ✅ | ✅ | ✅ |
+| Reporting  _coming soon_ | ❌ | ❌ | ✅ |
+| On-premise | ✅ | ✅ | ❌ |
+| Easy to integrate | ✅ | ✅ | ✅ |
 
