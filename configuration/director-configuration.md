@@ -183,11 +183,3 @@ You can override the whole read URL, including the bucket name using this variab
 
 Whether `director` should use SSL for communicating with `minio`.
 
-### Queue Configuration
-
-#### Redis \(optional\)
-
-`REDIS_URI=redis://redis:6379`
-
-Setting `REDIS_URI` allows director to use redis queue for running delayed tasks. Delayed tasks are being used to implement [Inactivity Timeout](../concepts/inactivity-timeout.md) for runs. When set, director will try to set up delayed tasks using the provided redis connection, instead of in-memory timeouts.
-
