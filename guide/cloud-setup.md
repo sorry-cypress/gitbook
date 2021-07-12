@@ -45,7 +45,7 @@ Congratulations! You have completed the guide.
 {% endhint %}
 
 {% hint style="info" %}
-New! Managed cypress tests dashboard starting $18/month [https://currents.dev](https://currents.dev)
+**New!** Managed, cloud-based affordable alternative to Cypress Dashboad without the overhead of managing your own infrastructure at [https://currents.dev](https://currents.dev)
 {% endhint %}
 
 
