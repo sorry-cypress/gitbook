@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.1.0
+
+### Added
+
+* feat: Allow resetting instance for retesting [fae3f7a](https://github.com/sorry-cypress/sorry-cypress/commit/fae3f7a6bac8e24ed3b4c4546043f8f48f2ac31b) by [@Aeolun](https://github.com/Aeolun)
+
 ## 1.0.3
 
 ### Fixed
@@ -7,7 +13,7 @@
 * fix: show correct duration in specs list [98ae7be](https://github.com/sorry-cypress/sorry-cypress/commit/98ae7be35005eadd0981455396cfe608f998fc2b). Closes [\#374](https://github.com/sorry-cypress/sorry-cypress/issues/374).
 * fix: heroku build build process [a658d3f](https://github.com/sorry-cypress/sorry-cypress/commit/a658d3f34dd988a9b281dfbe659626473e47f665). Closes [\#373](https://github.com/sorry-cypress/sorry-cypress/issues/373).
 
-### Dependecies
+### Dependencies
 
 * deps: dns-packet-1.3.4 [1358c74](https://github.com/sorry-cypress/sorry-cypress/commit/1358c7431babac346bca8f79c591c0d6a305ce84)
 
