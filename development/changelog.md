@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.1.1
+
+### Added
+
+*  feat: allow excluding branches from triggering slack hooks [\#406](https://github.com/sorry-cypress/sorry-cypress/pull/406) by  [@ImanMahmoudinasab](https://github.com/ImanMahmoudinasab)
+
+### Fixed
+
+* fix:  properly show git SSH URLs [\#413](https://github.com/sorry-cypress/sorry-cypress/pull/413) by [@Zaista](https://github.com/Zaista)
+
 ## 1.1.0
 
 ### Added
