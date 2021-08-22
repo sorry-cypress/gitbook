@@ -35,7 +35,7 @@ MONGODB_URI="monodgb://your-DB-URI"
 MONGODB_DATABASE="your-DB-name"
 ```
 
-Also, see [Director Configuration](director-configuration.md) options.
+Also, see [Director Configuration](director-configuration/) options.
 
 ### API Service
 
@@ -80,7 +80,7 @@ To disable remote storage, we need to set a"dummy" screenshots driver for Direct
 SCREENSHOTS_DRIVER="../screenshots/dummy.driver"
 ```
 
-To enable remote storage, see [Director Configuration](director-configuration.md) options.
+To enable remote storage, see [Director Configuration](director-configuration/) options.
 
 {% hint style="info" %}
 Refer to specific cloud platform instructions for remote cloud storage configuration guidelines.

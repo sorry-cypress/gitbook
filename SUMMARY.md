@@ -23,7 +23,8 @@
 
 * [Basic Setup](configuration/in-memory.md)
 * [Full Setup](configuration/persistent.md)
-* [Director Service](configuration/director-configuration.md)
+* [Director Service](configuration/director-configuration/README.md)
+  * [Minio Configuration](configuration/director-configuration/minio-configuration.md)
 * [API Service](configuration/api-configuration.md)
 * [Web Dashboard](configuration/dashboard-configuration/README.md)
   * [Configuration](configuration/dashboard-configuration/configuration.md)

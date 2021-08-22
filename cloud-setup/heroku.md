@@ -76,7 +76,7 @@ Because the creation of this cluster is very straightforward and well-written in
 
 #### Setup Recordings Storage
 
-Please refer to [Storage Configuration](../configuration/director-configuration.md#remote-storage-configuration) instructions to configure Recordings Storage \(failed tests screenshots and videos\) and obtains credentials.
+Please refer to [Storage Configuration](../configuration/director-configuration/#remote-storage-configuration) instructions to configure Recordings Storage \(failed tests screenshots and videos\) and obtains credentials.
 
 #### Setup `director` Service
 

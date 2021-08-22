@@ -41,6 +41,6 @@ The dashboard will indicate the runs that are waiting for "Inactivity timeout" t
 ![](../.gitbook/assets/image%20%281%29.png)
 
 {% hint style="warning" %}
-By default `director` service keeps the timeout counters in memory. Restarting `director` would remove the timers. Set up a [redis](../configuration/director-configuration.md#queue-configuration) cluster to create for more reliable implementation.
+By default `director` service keeps the timeout counters in memory. Restarting `director` would remove the timers. Set up a [redis](../configuration/director-configuration/#queue-configuration) cluster to create for more reliable implementation.
 {% endhint %}
 

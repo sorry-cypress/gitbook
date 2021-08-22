@@ -32,8 +32,8 @@ Empty or not provided variable means that all record keys are allowed.
 
 Set the execution driver for Director service. Possible values are:
 
-* `../execution/in-memory` - Director will keep all the data in-memory. See [Basic Setup](in-memory.md).
-* `../execution/mongo/driver` - use MongoDB as a persistence. See [Full Setup](persistent.md#director-service).
+* `../execution/in-memory` - Director will keep all the data in-memory. See [Basic Setup](../in-memory.md).
+* `../execution/mongo/driver` - use MongoDB as a persistence. See [Full Setup](../persistent.md#director-service).
 
 
 
@@ -72,8 +72,8 @@ MongoDB authentication `password`, when authentication mechanism is `DEFAULT`.
 Set the execution driver for Director service. Possible values are:
 
 * `../screenshots/dummy.driver` - don't store anything, dummy driver
-* `../screenshots/s3.driver` - use AWS S3. See [Full Setup](persistent.md#director-service) for details.
-* `../screenshots/minio.driver`- use Minio. See [Full Setup](persistent.md#director-service) for details.
+* `../screenshots/s3.driver` - use AWS S3. See [Full Setup](../persistent.md#director-service) for details.
+* `../screenshots/minio.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
 
 #### AWS S3 Remote Storage Configuration
 
@@ -126,60 +126,7 @@ Custom prefix for stored videos, if set the prefix will be applied e.g.: `${S3_B
 
 #### Minio Configuration
 
-{% hint style="danger" %}
-Treat your Minio keys and secrets AWS credentials and hide them. 
-{% endhint %}
-
-{% hint style="info" %}
-Refer to[`docker-compose.minio.yml`](https://github.com/sorry-cypress/sorry-cypress/blob/master/docker-compose.minio.yml)for Minio setup example.
-{% endhint %}
-
-`MINIO_ACCESS_KEY="defaultAccessKey"`
-
-Minio Access Key
+Read [Minio Configuration](minio-configuration.md) for Director
 
 
-
-`MINIO_SECRET_KEY="defaultSecret"`
-
-Minio Secret
-
-
-
-`MINIO_BUCKET="sorry-cypress"`
-
-Bucket name for storing generated artifacts. Please make sure that the bucket is created and configured properly before using it.
-
-
-
-`MINIO_URL="https://storage.yourdomain.com"`
-
-The public URL used for public read access to the stored screenshots and videos. This URL should be available from your browser and it will be used to fetch generated screenshots and videos.
-
-
-
-`MINIO_PORT=9000`
-
-Port that `director` and cypress agents will use to communicate with Minio.
-
-
-
-`MINIO_ENDPOINT="storage.yourdomain.com"`
-
-Hostname or IP address that **both `director` and cypress agents** will use to communicate with `minio` service.
-
-* Please make sure that your network configuration allows access to Minio resource for cypress agents and for Director service
-* To run on the local machine, edit your `/etc/hosts` file to allow cypress agents discover the local instance of Minio `127.0.0.1 localhost`
-
-
-
-`MINIO_READ_URL_PREFIX=null`
-
-You can override the whole read URL, including the bucket name using this variable. Most chances you won't need it, if you do, see the [source code](https://github.com/sorry-cypress/sorry-cypress/blob/master/packages/director/src/screenshots/minio/minio.ts#L42).
-
-
-
-`MINIO_USESSL="false"`
-
-Whether `director` should use SSL for communicating with `minio`.
 
