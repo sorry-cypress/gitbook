@@ -65,7 +65,7 @@ Port that `director` and cypress agents will use to communicate with Minio.
 
 `MINIO_ENDPOINT="storage.yourdomain.com"`
 
-Hostname or IP address that **both `director` and cypress agents** will use to communicate with `minio` service.
+Hostname or IP address that **both `director` and cypress agents** \(see the detailed explanation below\) will use to communicate with `minio` service.
 
 * Please make sure that your network configuration allows access to Minio resource for cypress agents and for Director service
 * To run on the local machine, edit your `/etc/hosts` file to allow cypress agents discover the local instance of Minio `127.0.0.1 localhost`
