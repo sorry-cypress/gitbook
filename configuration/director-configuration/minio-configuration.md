@@ -84,9 +84,9 @@ Whether `director` should use SSL for communicating with `minio`.
 
 ### Caveats of using Minio
 
-I have seen people being challenged by configuring minio and sorry cypress in non-trivial use cases. 
+I have seen people being challenged by configuring minio and sorry cypress for non-trivial use cases. 
 
-In order to answer, we need to understand first how cypress uploads videos and screenshots to remote storage.
+We need to understand first how cypress uploads videos and screenshots to remote storage to be aware of limitations and caveats.
 
 1. When cypress finishes running a spec file, it reports the results to sorry-cypress \(director service\)
 2. Director service analyzes the results and, if needed, generates a **signed upload URL** for each asset, using `MINIO_ENDPOINT` and `MINIO_PORT`configuration variables \(see below\). That means:
