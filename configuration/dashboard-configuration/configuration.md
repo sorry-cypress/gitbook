@@ -1,8 +1,8 @@
 # Configuration
 
-`PORT=1234`
+`PORT=8080`
 
-Director will listen on that port
+Dashboard will listen on that port
 
 
 

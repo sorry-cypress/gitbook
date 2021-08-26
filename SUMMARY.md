@@ -28,7 +28,6 @@
 * [API Service](configuration/api-configuration.md)
 * [Web Dashboard](configuration/dashboard-configuration/README.md)
   * [Configuration](configuration/dashboard-configuration/configuration.md)
-  * [Projects](configuration/dashboard-configuration/projects.md)
 
 ## Integrations
 
