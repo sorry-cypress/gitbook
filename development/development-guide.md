@@ -1,12 +1,57 @@
 # Development Guide
 
-We use yarn workspaces, please use `yarn`. 
+We use yarn workspaces, please use `yarn`.  
+
+### Add `.env` configuration to services
+
+Add `.env` file with the following contents:
+
+```text
+# packages/director/.env
+EXECUTION_DRIVER="../execution/mongo/driver"
+SCREENSHOTS_DRIVER="../screenshots/minio.driver"
+MINIO_ACCESS_KEY='MW32h3gd6HvjBEgTRx'
+MINIO_SECRET_KEY=t6NgQWUcEyG2AzaDCVkN6sbWcvDCVkN6sGiZ7
+MINIO_ENDPOINT='storage'
+MINIO_URL='http://localhost'
+MINIO_PORT='9000'
+MINIO_USESSL='false'
+MINIO_BUCKET=sorry-cypress
+
+# packages/dashboard/.env
+GRAPHQL_SCHEMA_URL=http://api.sc.com:4000
+```
+
+### Override `localhost` network
+
+Add the following entries to `/etc/hosts` or an equivalent file on Windows
+
+```text
+127.0.0.1 storage
+127.0.0.1 api.sc.com
+```
+
+### Start `minio` and `mongo` background services 
+
+```text
+docker-compose -f ./docker-compose.minio.yml up -d storage mongo createbuckets
+```
+
+Make sure that associated services are available on the localhost - e.g. `mongo`, `minio`
 
 ### Start all the services in dev mode
 
 `yarn dev`
 
-Make sure that associated services are available on the localhost - e.g. `mongo`, `minio, redis`
+* The dashboard should be available at [http://localhost:8080](http://localhost:8080)
+* Director service should be available at [http://localhost:1234](http://localhost:1234)
+
+Send new tests to dashboard using this command:
+
+```bash
+CYPRESS_API_URL=http://localhost:1234/ \
+cy2 run --record --key whatever --parallel --ci-build-id `date +%s`
+```
 
 ### Prevent CI
 
