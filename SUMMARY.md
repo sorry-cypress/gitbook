@@ -24,10 +24,12 @@
 * [Basic Setup](configuration/in-memory.md)
 * [Full Setup](configuration/persistent.md)
 * [Director Service](configuration/director-configuration/README.md)
+  * [AWS S3 Configuration](configuration/director-configuration/aws-s3-configuration.md)
   * [Minio Configuration](configuration/director-configuration/minio-configuration.md)
 * [API Service](configuration/api-configuration.md)
 * [Web Dashboard](configuration/dashboard-configuration/README.md)
   * [Configuration](configuration/dashboard-configuration/configuration.md)
+* [MongoDB Configuration](configuration/mongodb-configuration.md)
 
 ## Integrations
 

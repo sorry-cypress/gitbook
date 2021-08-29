@@ -1,7 +1,7 @@
 # Inactivity Timeout \[deprecated\]
 
 {% hint style="danger" %}
-`inactivityTimeout` was deprecated in [v1.0.0](../development/changelog.md#1-0-0) in favour of a global runs timeout, that one can set in project settings. 
+`inactivityTimeout` was deprecated in [v1.0.0](../development/changelog.md#1-0-0) in favour of a global runs timeout
 {% endhint %}
 
 `Inactivity Timeout` is a setting that defines how long should we wait until checking for a run's inactivity.

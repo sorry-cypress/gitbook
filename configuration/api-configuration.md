@@ -10,13 +10,11 @@ API service  port
 
 
 
-`MONGODB_URI="mongodb://mongo:27017"`
+`PAGE_ITEMS_LIMIT=10`
 
-MongoDB connection URL, only used by "mongo" execution driver.
+Default number of items to serve for runs feed
 
+### MongoDB Connection Settings
 
-
-`MONGODB_DATABASE="sorry-cypress"`
-
-MongoDB database name, only used by "mongo" execution driver.
+Refer to [MongoDB Configuration](mongodb-configuration.md).
 
