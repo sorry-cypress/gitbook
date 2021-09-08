@@ -18,6 +18,12 @@ Director will listen on that port
 
 
 
+`INACTIVITY_TIMEOUT_SECONDS=180`
+
+Director uses the timeout value to define how long we should wait before checking for a run’s inactivity.
+
+
+
 `ALLOWED_KEYS=null`
 
 List of comma delimited record keys \(provided to the Cypress Runner using --key option\) which are accepted by the director service.
