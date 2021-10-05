@@ -38,6 +38,7 @@
 * [Slack Integration](integrations/slack-integration.md)
 * [GitHub Integration](integrations/github-integration.md)
 * [Bitbucket Integration](integrations/bitbucket-integration.md)
+* [MS Teams Integration](integrations/teams.md)
 
 ## Concepts
 
