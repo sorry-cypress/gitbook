@@ -17,7 +17,7 @@ The full sorry-cypress setup allows to use all the supported featured but comes 
 Director service is responsible for
 
 * parallelization and coordination of test runs
-* integration with Slack, GitHub and emitting generic WebHooks
+* integration with Slack, GitHub, MS Teams and emitting generic WebHooks
 * saving tests results
 * generating signed upload URL for saving failed tests screenshots
 
@@ -51,7 +51,7 @@ The dashboard allows end-users to interact with sorry-cypress using a browser an
 
 * track test runs progress
 * browser test results, videos, and failures screenshots
-* set projects configuration like WebHooks, Slack, and GitHub integration
+* set projects configuration like WebHooks, Slack, MS Teams and GitHub integration
 * create and delete entries \(projects, runs\)
 
 Also, see [Dashboard Configuration](dashboard-configuration/) options.
@@ -74,7 +74,7 @@ Sorry-cypress integrates with the major remote cloud storage solutions:
   * NAS
   * HDFS
 
-To disable remote storage, we need to set a"dummy" screenshots driver for Director service.
+To disable remote storage, we need to set a "dummy" screenshots driver for Director service.
 
 ```text
 SCREENSHOTS_DRIVER="../screenshots/dummy.driver"
