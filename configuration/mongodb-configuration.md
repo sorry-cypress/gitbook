@@ -28,13 +28,13 @@ MongoDB authentication mechanism. See [MongoDB Authentication](https://mongodb.g
 
 
 
-`MONGODB_AUTH_USER`
+`MONGODB_USER`
 
 MongoDB authentication user, when `MONGODB_AUTH_MECHANISM` is non-empty
 
 
 
-`MONGODB_AUTH_PASSWORD`
+`MONGODB_PASSWORD`
 
 MongoDB authentication `password`, when `MONGODB_AUTH_MECHANISM` is non-empty
 
