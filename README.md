@@ -2,7 +2,7 @@
 
 Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress dashboard 🌲
 
-### ⭐️ Features
+## ⭐️ Features
 
 * Run cypress tests in parallel without dashboard, no limitations
 * Upload screenshots and videos to your own storage
@@ -18,24 +18,25 @@ Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress 
   * Google Cloud
   * Azure
 
-### 💎 Support
+## 💎 Support
 
 Looking for help with installation and / or features? Check out our [Support](support.md) options
 
-### ❤️ Contribute
+## ❤️ Contribute
 
-*  ⭐️  the project on [GitHub](https://github.com/sorry-cypress/sorry-cypress.dev)
+* ⭐️  the project on [GitHub](https://github.com/sorry-cypress/sorry-cypress.dev)
 * Donate via [GitHub Sponsors](https://github.com/sponsors/agoldis) or [Open Collective](https://opencollective.com/sorry-cypress)
 * Check out our [Contribution Guide](contributions.md)
 
-### 🤙 Stay in touch
+## 🤙 Stay in touch
 
 * Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latests updates
-* Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
+* Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared\_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
 
-### ⚡️ Sorry Cypress in Cloud 
+## ⚡️ Sorry Cypress in Cloud
 
 Sorry Cypress is 100% open source project, if you're happy to manage your own infrastructure, please continue reading our [guides](guide/get-started.md) and installation instructions.
 
-[https://currents.dev](https://currents.dev/?utm_source=docs-sc) is a cloud-based, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure. 
+[https://currents.dev](https://currents.dev) is a cloud-based, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
 
+[Compare the features](https://currents.notion.site/Features-Comparison-83229899965147eab011aba2a2fcd421) available in Sorry Cypress and Currents.
