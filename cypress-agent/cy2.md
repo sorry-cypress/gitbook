@@ -13,4 +13,4 @@ $ cy2 run --record --key XXX --parallel --ci-build-id `date +%s`
 
 * Running the command above will invoke your default cypress version with the flags you've provided. It will also modify the internal cypress configuration to use a different API URL.
 * If no URL provided, it will use the default `cypress` package value.
-
+* On Windows set `CYPRESS_API_URL` in the CMD shell with ```set CYPRESS_API_URL=https://sorry.yourdomain.com/``` (Don't use quotes (`"`) because the Windows CMD takes them literal unlike the Linux shells)
