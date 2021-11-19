@@ -92,3 +92,5 @@ Director and API services work with MongoDB as a persistency layer. It's up to y
 
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is a simple and popular managed solution that also has a free tier.
 
+[AWS DocumentDB](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html) is a managed NoSQL DB in AWS which is [partially compatible](https://docs.aws.amazon.com/documentdb/latest/developerguide/compatibility.html) to the MongoDB API.
+It has no free tier option, but can be still be a suitable option. Sorry-cypress added compatibility in [v1.0.0-rc.8](https://github.com/sorry-cypress/sorry-cypress/releases/tag/v1.0.0-rc.8)
