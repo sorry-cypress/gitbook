@@ -38,7 +38,7 @@ After successfully running docker-compose, we have:
 
 * `director` service on [http://localhost:1234](http://localhost:1234)
 * `API` service on [http://localhost:4000](http://localhost:4000)  
-* `Dashboad` running on [http://localhost:8080](http://localhost:8080)
+* `Dashboard` running on [http://localhost:8080](http://localhost:8080)
 
 Open the dashboard at [http://localhost:8080](http://localhost:8080)
 
