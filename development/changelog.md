@@ -24,6 +24,8 @@
 - misc: completely removed lookup aggregations from mongoDB queries. Sorry cypress is much DocumentDB friendly now!
 - misc: added material-UI for gradual transition. See #401
 
+See the complete list of changes on GitHub https://github.com/sorry-cypress/sorry-cypress/releases/tag/v2.0.0
+
 ## 1.1.1
 
 ### Added
