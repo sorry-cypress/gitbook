@@ -1,5 +1,29 @@
 # Changelog
 
+## 2.0.0 🎉
+
+### Breaking changes
+- Deprecated support for cypress agents lt `6.7.0`
+  - Supporting the legacy versions of cypress with all the code was cumbersome. Trying to use SC with older cypress versions would return an error when creating new runs. Closes #412.
+
+- The internal representation of runs has changed. **Runs created prior to v2.0 might be displayed partially or not displayed at all.**
+  - added a `progress` field on `run` with the instances and tests progress state. We use this field to report run's progress in hooks / dashboard instead of invoking complex MongoDB queries. This should resolve #417 because we won't use MongoDB aggregations that create gt 16MB documents.
+  - `runs.specs` will have a short version of "results" - that would allow more efficient data fetching for showing runs feeds and individual runs.
+ 
+### Other changes
+
+- feat: 😎 ⭐️ New UI implementation by @ImanMahmoudinasab 
+- fix: Delete run timeout when deleting run. Closes #409.
+- fix: Correctly report failed tests w/o counting retires. Closes #384 
+- fix: In-memory director crashes when test fails with an exception. Closes #425 
+- fix: Stop showing duration running for completed runs / tests. Closes #377
+- feat: Add retries to Slack integration, show retries count everywhere and use "Flaky" badge if spec / test was retried. Closes #378 
+- feat: Configure default page items # on runs feed via `PAGE_ITEMS_LIMIT` env variable for API service
+- infra: remove redis dependency in docker-compose files, updated docs accordingly
+- infra: properly set up typescript for monorepo, resolved dozens of TS errors and warnings
+- misc: completely removed lookup aggregations from mongoDB queries. Sorry cypress is much DocumentDB friendly now!
+- misc: added material-UI for gradual transition. See #401
+
 ## 1.1.1
 
 ### Added
