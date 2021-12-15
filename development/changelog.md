@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.0.1
+
+### What's Changed
+* build(deps): bump aws-sdk from 2.756.0 to 2.814.0 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/494
+* build(deps): bump apollo-server from 2.18.1 to 2.25.3 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/485
+* fix: encode project ids wherever it is used in url by @ImanMahmoudinasab in https://github.com/sorry-cypress/sorry-cypress/pull/510
+
+
+**Full Changelog**: https://github.com/sorry-cypress/sorry-cypress/compare/v2.0.0...v2.0.1
+
 ## 2.0.0 🎉
 
 ### Breaking changes
