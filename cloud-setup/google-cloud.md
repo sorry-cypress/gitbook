@@ -27,21 +27,21 @@ Once you've created MongoDB cluster and a database, please obtain credentials an
 ### Minio Gateway
 
 {% hint style="info" %}
-You can use AWS S3 Storage instead, please refer to [AWS S3 setup instructions]() 
+You can use AWS S3 Storage instead, please refer to [AWS S3 setup instructions](broken-reference)&#x20;
 {% endhint %}
 
-MinIO GCS Gateway allows to access Google Cloud Storage \(GCS\) with AWS S3-compatible APIs. 
+MinIO GCS Gateway allows to access Google Cloud Storage (GCS) with AWS S3-compatible APIs.&#x20;
 
 #### Create Service Account
 
-1. Navigate to the [API Console Credentials page](https://console.developers.google.com/project/_/apis/credentials)
+1. Navigate to the [API Console Credentials page](https://console.developers.google.com/project/\_/apis/credentials)
 2. Select a project or create a new project. Note the project ID.
 3. Select the **Create credentials** drop-down on the **Credentials** page, and click **Service account key**.
 4. Select **New service account** from the **Service account** drop-down.
 5. Populate the **Service account name** and **Service account ID**.
-6. Click the drop-down under **Grant this service account access to the project,**  the **Role** and choose **Storage** &gt; **Storage Admin** _\(Full control of GCS resources\)_.
-7. Click on the service account and select **Add Key &gt; Create New Key** key
-8.  Download the **JSON** file and rename it as `credentials.json`
+6. Click the drop-down under **Grant this service account access to the project,** the **Role** and choose **Storage** > **Storage Admin** _(Full control of GCS resources)_.
+7. Click on the service account and select **Add Key > Create New Key** key
+8. &#x20;Download the **JSON** file and rename it as `credentials.json`
 
 {% hint style="warning" %}
 The service account is granted admin access to all GC storage objects. Please refer to Google Cloud and Minio documentation to limit access.
@@ -93,7 +93,7 @@ Upon successful deployment, note the `Service URL` of the deployed service. You'
 
 #### Create a New Bucket
 
-Run the next command to create a new bucket \(`<bucket_name>`\) and set policy using  `mc` - minio client Docker image
+Run the next command to create a new bucket (`<bucket_name>`) and set policy using  `mc` - minio client Docker image
 
 ```bash
 docker run -it minio/mc \
@@ -116,7 +116,7 @@ Let's create 3 Cloud Run Services and deploy sorry-cypress components. We are go
 2. Tag and push image to GCR associated with your project
 3. Deploy Google Cloud Run service using the newly generated image
 
-Running a simple script hosted on GitHub would deploy the services. 
+Running a simple script hosted on GitHub would deploy the services.&#x20;
 
 * `-p` is the current Google Cloud project
 * `-n` is the name prefix for generated Google Cloud Run services
@@ -140,7 +140,7 @@ Note the URLs of the generated services, we'll use those in the next step to con
 Run the commands below, please be careful while substituting template strings with values obtained at previous steps
 
 {% hint style="info" %}
-`MINIO_ENDPOINT` is the hostname of Minio URL you've obtained while setting up Minio Gateway. E.g. 
+`MINIO_ENDPOINT` is the hostname of Minio URL you've obtained while setting up Minio Gateway. E.g.&#x20;
 {% endhint %}
 
 ```bash
@@ -173,5 +173,4 @@ gcloud run services update <services_prefix>-dashboard \
 
 You've finished setting up sorry-cypress on Google Cloud - now you can open the Dashboard URL to see the dashboard.
 
-Don't forget to [reconfigure cypress agents](../cypress-agent/configuring-cypress-agent.md) to use Director service before running test. 
-
+Don't forget to [reconfigure cypress agents](../cypress-agent/configuring-cypress-agent.md) to use Director service before running test.&#x20;

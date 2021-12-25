@@ -12,7 +12,7 @@ AWS Access Key
 
 `AWS_SECRET_ACCESS_KEY=null`
 
-AWS Secret  
+AWS Secret\
 
 
 `S3_BUCKET="sorry-cypress"`
@@ -29,7 +29,7 @@ AWS S3 Region
 
 `S3_ACL="public-read"`
 
-[AWS S3 ACL](https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObjectAcl.html) for `putObject` operation
+[AWS S3 ACL](https://docs.aws.amazon.com/AmazonS3/latest/API/API\_PutObjectAcl.html) for `putObject` operation
 
 
 
@@ -48,4 +48,3 @@ Custom prefix for stored images, if set the prefix will be applied e.g.: `${S3_B
 `S3_VIDEO_KEY_PREFIX=null`
 
 Custom prefix for stored videos, if set the prefix will be applied e.g.: `${S3_BUCKET}.s3.amazonaws.com/${S3_VIDEO_KEY_PREFIX}${objectKey}`
-

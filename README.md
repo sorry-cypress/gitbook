@@ -1,5 +1,7 @@
 # Documentation
 
+![](.gitbook/assets/banner.dark.png)
+
 Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress dashboard 🌲
 
 ## ⭐️ Features
