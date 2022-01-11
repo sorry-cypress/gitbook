@@ -6,7 +6,7 @@ Sorry-cypress is being successfully used by many companies of different sizes ac
 Please consider reading our integration guides for various cloud platforms
 {% endhint %}
 
-### Free OSS version - community support
+### Free OSS version - community support ([https://sorry-cypress.dev](https://sorry-cypress.dev))
 
 The following support options are available for self-hosted, free sorry-cypress version:
 
