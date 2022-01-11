@@ -1,37 +1,24 @@
 # Support
 
-Sorry-cypress is being successfully used by many companies of different sizes on different infrastructure. 
+Sorry-cypress is being successfully used by many companies of different sizes across the globe.
 
 {% hint style="info" %}
 Please consider reading our integration guides for various cloud platforms
 {% endhint %}
 
-We provide the following support options for sorry-cypress users
+### Free OSS version - community support
 
-|  | Community  | 💎 Pro |
-| :--- | :--- | :--- |
-| Support via Slack | Occasional | Prioritized |
-| Support via GitHub Issues | Upvote based | Prioritized |
-| Support via Email | N/A | ✔️ |
-| Support via phone / video | N/A | ✔️ |
-| Bug Fixes | GitHub Issues | Prioritized |
-| Features Requests | GitHub Issues | Prioritized |
+The following support options are available for self-hosted, free sorry-cypress version:
 
-#### Community Support
+* documentation&#x20;
+* community publications&#x20;
+* [GitHub issues](https://github.com/sorry-cypress/sorry-cypress/issues) &#x20;
+* Public [Slack channel](https://sorry-cypress.slack.com/join/shared\_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw#/)
 
-Check out our documentation, community publications and [GitHub issues](https://github.com/sorry-cypress/sorry-cypress/issues) for common solutions, also consider joining our public [Slack channel](https://sorry-cypress.slack.com/join/shared_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw#/).
+### Paid, cloud version ([https://currents.dev](https://currents.dev))
 
-#### 💎 Pro Support
+The following standard [support options](https://currents.dev/#features) is available for paid customers of Currents.dev - cloud-based, managed version of sorry-cypress:
 
-You can get a dedicated support from the creators and maintainers of sorry-cypress - including hep with installation on platform of your choice, prioritizing features / bug fixes.
-
-Please contact [support@sorry-cypress.dev](mailto:support@sorry-cypress.dev) for details. 
-
-
-
-
-
-
-
-
-
+* In-app chat support
+* Email
+* Customized support plans
