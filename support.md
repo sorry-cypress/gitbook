@@ -10,8 +10,8 @@ Please consider reading our integration guides for various cloud platforms
 
 The following support options are available for self-hosted, free sorry-cypress version:
 
-* documentation&#x20;
-* community publications&#x20;
+* Documentation&#x20;
+* Community publications&#x20;
 * [GitHub issues](https://github.com/sorry-cypress/sorry-cypress/issues) &#x20;
 * Public [Slack channel](https://sorry-cypress.slack.com/join/shared\_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw#/)
 
