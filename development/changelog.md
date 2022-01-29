@@ -1,5 +1,24 @@
 # Changelog
 
+## 2.1.0
+
+### What's Changed
+
+* Dockerfile efficiencies by @tico24 in https://github.com/sorry-cypress/sorry-cypress/pull/523
+* Add HOST parameter to API config. by @nijine in https://github.com/sorry-cypress/sorry-cypress/pull/528
+* docs: add nijine as a contributor for code by @allcontributors in https://github.com/sorry-cypress/sorry-cypress/pull/529
+* build(deps): bump follow-redirects from 1.14.3 to 1.14.7 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/522
+* build(deps): bump nanoid from 3.1.30 to 3.1.31 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/527
+* build(deps): bump glob-parent from 5.1.1 to 5.1.2 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/530
+* build(deps): bump normalize-url from 4.5.0 to 4.5.1 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/531
+* Dev container by @agoldis in https://github.com/sorry-cypress/sorry-cypress/pull/532
+
+### New Contributors
+
+* @nijine made their first contribution in https://github.com/sorry-cypress/sorry-cypress/pull/528
+
+**Full Changelog**: https://github.com/sorry-cypress/sorry-cypress/compare/v2.0.2...v2.1.0
+
 ## 2.0.2
 
 ### What's Changed
