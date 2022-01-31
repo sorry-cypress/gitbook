@@ -6,7 +6,7 @@ description: Get started with a free parallelization using sorry-cypress
 
 Let's start by running basic sorry-cypress configuration:
 
-```text
+```
 docker run -p 1234:1234 agoldis/sorry-cypress-director
 ```
 
@@ -21,19 +21,19 @@ We've just launched `director` service on [`http://localhost:1234`](http://local
 ```bash
 npm install cy2 cypress
 export CYPRESS_API_URL="http://localhost:1234/"
-cy2 run --record --key XXX --parallel --ci-build-id `date +%s`
+npx cy2 run --record --key XXX --parallel --ci-build-id `date +%s`
 ```
 
-### Running cypress tests in parallel <a id="running-cypress-tests-in-parallel"></a>
+### Running cypress tests in parallel <a href="#running-cypress-tests-in-parallel" id="running-cypress-tests-in-parallel"></a>
 
-Let's open several terminal windows and run `cypress` in each. Make sure you have cypress tests defined in advance \(clone [https://github.com/agoldis/sorry-cypress-demo.git](https://github.com/agoldis/sorry-cypress-demo.git) if you don't have any test handy\).
+Let's open several terminal windows and run `cypress` in each. Make sure you have cypress tests defined in advance (clone [https://github.com/agoldis/sorry-cypress-demo.git](https://github.com/agoldis/sorry-cypress-demo.git) if you don't have any test handy).
 
 ```bash
 # run in each terminal
-CYPRESS_API_URL="http://localhost:1234/" cy2 run --parallel --record --key somekey --ci-build-id hello-cypress
+CYPRESS_API_URL="http://localhost:1234/" npx cy2 run --parallel --record --key somekey --ci-build-id hello-cypress
 ```
 
-You'll notice that different instances of cypress agents are running different tests. 
+You'll notice that different instances of cypress agents are running different tests.&#x20;
 
 🎉 We've just finished the basic setup of sorry-cypress and ran our tests in parallel!
 
@@ -43,4 +43,3 @@ You'll notice that different instances of cypress agents are running different t
 * This basic `director` configuration keeps all the test results in-memory. Restarting it wipes all the data
 * `--key` and `projectId` do not have any effect for the basic setup
 {% endhint %}
-
