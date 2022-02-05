@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.1
+
+### What's Changed
+
+* Prevent crash on GitHub http failure. Closes #534 by @agoldis.
+
+**Full Changelog**: https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.0...v2.1.1
+
 ## 2.1.0
 
 ### What's Changed
