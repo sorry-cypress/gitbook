@@ -7,6 +7,7 @@
 * [Introducing The Sorry Cypress Helm Chart](https://crumbhole.com/indroducing-the-sorry-cypress-helm-chart/) **** by **Tim Collins**
 * [Paralleling Cypress with Sorry Cypress on Render](https://blog.simonireilly.com/posts/sorry-render-cypress) for $7.25/mo by **Simon Reilly**
 * [Cypress parallelization tools comparison](https://currents.dev/posts/cypress-parallelization-tools) by **Laerte Neto**
+* [Parallelizing Cypress with Jenkins, AWS, and Sorry-Cypress](https://medium.com/geekculture/parallelizing-cypress-with-jenkins-aws-and-sorry-cypress-8241331fe50f) by **Seth Lustke**
 
 ### **Videos**
 
