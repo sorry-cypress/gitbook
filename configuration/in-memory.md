@@ -27,7 +27,7 @@ By default the service starts on port `1234`. Point cypress agents to use the ne
 Behind the scene director service uses in-memory execution driver and can be explicitly set to basic mode by setting environment variables
 
 ```text
-EXECUTION_DRIVER="../execution/in-memory/driver"
+EXECUTION_DRIVER="../execution/in-memory"
 SCREENSHOTS_DRIVER="../screenshots/dummy.driver"
 PORT=1234
 ```
