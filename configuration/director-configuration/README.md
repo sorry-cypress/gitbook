@@ -57,3 +57,18 @@ Refer to [AWS S3 Configuration.](aws-s3-configuration.md)
 
 Read [Minio Configuration](minio-configuration.md) for Director
 
+## Proxy Settings for Webhooks
+
+If your Sorry-Cypress instance is only allowed to communicate outpound using a Proxy, the following values needs to be set (all values need to be provided!):
+
+`PROXY_URL`
+Sets the proxy DNS name to be used, for example: `my-proxy.com`
+
+`PROXY_PORT`
+Sets the port to be used, for example: `8080`
+
+`PROXY_USERNAME`
+Sets the proxy username to be used, for example: `my-proxy-username`
+
+`PROXY_PASSWORD`
+Sets the corresponding proxy password to be used, for example: `my-secret-proxy-password`
