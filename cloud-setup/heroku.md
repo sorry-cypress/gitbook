@@ -4,11 +4,11 @@ description: Sorry-cypress installation instructions for Heroku
 
 # Heroku
 
-### Basic sorry-cypress Setup <a id="running-a-stateless-director-service"></a>
+### Basic sorry-cypress Setup <a href="#running-a-stateless-director-service" id="running-a-stateless-director-service"></a>
 
 Click the button below to deploy the basic, in-memory, standalone `director` service to Heroku.
 
-[![](../.gitbook/assets/button.svg)](https://heroku.com/deploy?template=https://github.com/agoldis/sorry-cypress/tree/master)
+[<img src="../.gitbook/assets/button.svg" alt="" data-size="original">](https://heroku.com/deploy?template=https://github.com/agoldis/sorry-cypress/tree/master)
 
 ### Full sorry-cypress kit on Heroku
 
@@ -68,7 +68,7 @@ heroku container:release --app <name_of_dashboard_app> web
 
 Choose the MongoDB provider of your choice and obtain connection details. You will need to set the credentials for newly deployed services.
 
-Heroku has a plenty of add-ons that allows attaching a MongoDB cluster. The recommended way is to attach a MongoDB add-on to `director` application and use the same credentials for `API` service. 
+Heroku has a plenty of add-ons that allows attaching a MongoDB cluster. The recommended way is to attach a MongoDB add-on to `director` application and use the same credentials for `API` service.&#x20;
 
 All you'll need is the database name and the access credentials so you can fill the Heroku config variables as we'll see right after. So go ahead to the [MongoDB Atlas docs](https://docs.atlas.mongodb.com/getting-started/), get your database running and grab that data!
 
@@ -76,7 +76,7 @@ Because the creation of this cluster is very straightforward and well-written in
 
 #### Setup Recordings Storage
 
-Please refer to [Storage Configuration](../configuration/director-configuration/#remote-storage-configuration) instructions to configure Recordings Storage \(failed tests screenshots and videos\) and obtains credentials.
+Please refer to [Storage Configuration](../configuration/director-configuration/#remote-storage-configuration) instructions to configure Recordings Storage (failed tests screenshots and videos) and obtains credentials.
 
 #### Setup `director` Service
 
@@ -128,4 +128,3 @@ GRAPHQL_SCHEMA_URL=<api_app_url>
 ```
 
 [Reconfigure cypress agents](../cypress-agent/configuring-cypress-agent.md) and try running some tests. You will see test results appear in the newly installed dashboard.
-

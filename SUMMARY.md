@@ -8,7 +8,7 @@
 * [Dashboard and API](guide/dashboard-and-api.md)
 * [Cloud Setup](guide/cloud-setup.md)
 
-## Cloud <a id="cloud-setup"></a>
+## Cloud <a href="#cloud-setup" id="cloud-setup"></a>
 
 * [AWS](cloud-setup/aws/README.md)
   * [AWS S3 Manual Setup](cloud-setup/aws/aws-s3-storage.md)
@@ -31,6 +31,7 @@
 * [Web Dashboard](configuration/dashboard-configuration/README.md)
   * [Configuration](configuration/dashboard-configuration/configuration.md)
 * [MongoDB Configuration](configuration/mongodb-configuration.md)
+* [FAQ](configuration/faq.md)
 
 ## Integrations
 
@@ -64,11 +65,10 @@
 * [Changelog](development/changelog.md)
 * [Development Guide](development/development-guide.md)
 
----
+***
 
 * [Community Content](community-content.md)
 * [❤️ Contributions](contributions.md)
 * [Support](support.md)
 * [Legal](legal.md)
 * [FAQ](faq.md)
-
