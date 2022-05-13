@@ -4,26 +4,26 @@
 
 ### What's Changed
 
-* use commit message instead of sha by @raftx24 in https://github.com/sorry-cypress/sorry-cypress/pull/542
-* Updating GH actions to latest versions by @diogormendes in https://github.com/sorry-cypress/sorry-cypress/pull/557
-* Update README.md by @eltociear in https://github.com/sorry-cypress/sorry-cypress/pull/559
-* build(deps): bump async from 2.6.3 to 2.6.4 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/563
-* feat: make grid coulmns sortable and filterable by @ImanMahmoudinasab in https://github.com/sorry-cypress/sorry-cypress/pull/565
-* \[Snyk] Security upgrade axios from 0.21.2 to 0.21.3 by @agoldis in https://github.com/sorry-cypress/sorry-cypress/pull/569
-* \[Snyk] Fix for 3 vulnerabilities by @snyk-bot in https://github.com/sorry-cypress/sorry-cypress/pull/571
-* \[Snyk] Security upgrade axios from 0.21.2 to 0.21.3 by @agoldis in https://github.com/sorry-cypress/sorry-cypress/pull/570
-* build(deps): bump minimist from 1.2.5 to 1.2.6 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/556
-* build(deps): bump cross-fetch from 3.0.6 to 3.1.5 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/562
-* build(deps): bump follow-redirects from 1.14.7 to 1.15.0 by @dependabot in https://github.com/sorry-cypress/sorry-cypress/pull/573
+* use commit message instead of sha by [@raftx24](https://github.com/raftx24) in [#542](https://github.com/sorry-cypress/sorry-cypress/pull/542)
+* Updating GH actions to latest versions by [@diogormendes](https://github.com/diogormendes) in [#557](https://github.com/sorry-cypress/sorry-cypress/pull/557)
+* Update README.md by [@eltociear](https://github.com/eltociear) in [#559](https://github.com/sorry-cypress/sorry-cypress/pull/559)
+* build(deps): bump async from 2.6.3 to 2.6.4 by [@dependabot](https://github.com/dependabot) in [#563](https://github.com/sorry-cypress/sorry-cypress/pull/563)
+* feat: make grid coulmns sortable and filterable by [@ImanMahmoudinasab](https://github.com/ImanMahmoudinasab) in [#565](https://github.com/sorry-cypress/sorry-cypress/pull/565)
+* \[Snyk] Security upgrade axios from 0.21.2 to 0.21.3 by [@agoldis](https://github.com/agoldis) in [#569](https://github.com/sorry-cypress/sorry-cypress/pull/569)
+* \[Snyk] Fix for 3 vulnerabilities by [@snyk-bot](https://github.com/snyk-bot) in [#571](https://github.com/sorry-cypress/sorry-cypress/pull/571)
+* \[Snyk] Security upgrade axios from 0.21.2 to 0.21.3 by [@agoldis](https://github.com/agoldis) in [#570](https://github.com/sorry-cypress/sorry-cypress/pull/570)
+* build(deps): bump minimist from 1.2.5 to 1.2.6 by [@dependabot](https://github.com/dependabot) in [#556](https://github.com/sorry-cypress/sorry-cypress/pull/556)
+* build(deps): bump cross-fetch from 3.0.6 to 3.1.5 by [@dependabot](https://github.com/dependabot) in [#562](https://github.com/sorry-cypress/sorry-cypress/pull/562)
+* build(deps): bump follow-redirects from 1.14.7 to 1.15.0 by [@dependabot](https://github.com/dependabot) in [#573](https://github.com/sorry-cypress/sorry-cypress/pull/573)
 
 ### New Contributors
 
-* @raftx24 made their first contribution in https://github.com/sorry-cypress/sorry-cypress/pull/542
-* @diogormendes made their first contribution in https://github.com/sorry-cypress/sorry-cypress/pull/557
-* @eltociear made their first contribution in https://github.com/sorry-cypress/sorry-cypress/pull/559
-* @snyk-bot made their first contribution in https://github.com/sorry-cypress/sorry-cypress/pull/571
+* [@raftx24](https://github.com/raftx24) made their first contribution in [#542](https://github.com/sorry-cypress/sorry-cypress/pull/542)
+* [@diogormendes](https://github.com/diogormendes) made their first contribution in [#557](https://github.com/sorry-cypress/sorry-cypress/pull/557)
+* [@eltociear](https://github.com/eltociear) made their first contribution in [#559](https://github.com/sorry-cypress/sorry-cypress/pull/559)
+* [@snyk-bot](https://github.com/snyk-bot) made their first contribution in [#571](https://github.com/sorry-cypress/sorry-cypress/pull/571)
 
-**Full Changelog**: https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.1...v2.1.2
+**Full Changelog**: [v2.1.1...v2.1.2](https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.1...v2.1.2)
 
 ## 2.1.1
 
