@@ -19,3 +19,7 @@ This is not trivial. If you find a proper configuration, please contribute to th
 
 ![Cypress AWS S3 upload / read flow](../.gitbook/assets/sorry-cypress-s3.png)
 
+### Cypress Parallelization is not working - I see a separate build for each machine
+
+* Please make sure you understand how [CI Build ID](https://currents.dev/readme/guides/cypress-ci-build-id) affects [Parallelization](https://currents.dev/readme/guides/parallelization)
+* Please make sure your MongoDB instance has all the [indexes defined](https://github.com/sorry-cypress/sorry-cypress/blob/master/packages/mongo/src/db.ts#L72). The indexes are required for parallelization to work.
