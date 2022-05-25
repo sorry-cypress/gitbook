@@ -39,6 +39,6 @@ Looking for help with installation and / or features? Check out our [Support](su
 
 Sorry Cypress is 100% open source project, if you're happy to manage your own infrastructure, please continue reading our [guides](guide/get-started.md) and installation instructions.
 
-[https://currents.dev](https://currents.dev) is a cloud-based, production-grade, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
+[https://currents.dev](https://currents.dev/?utm\_source=docs-sc) is a cloud-based, production-grade, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
 
 Check out the [full features comparison table ](https://currents.notion.site/Features-Comparison-83229899965147eab011aba2a2fcd421)to see how Currents is different from Sorry Cypress.

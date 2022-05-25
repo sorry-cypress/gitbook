@@ -64,7 +64,7 @@ The stack creates [AWS Application Load Balancer](https://docs.aws.amazon.com/el
 
 You're only paying for AWS resources. Here's a rough estimator of price / month for using the resources used . The actual usage might be higher (or lower) based on actual usage
 
-* Fargate pricing based on [calculator](http://fargate-pricing-calculator.site.s3-website-us-east-1.amazonaws.com) **35.546 USD** (1 vCPU, 2GB RAM) or **17.773 USD** (0.5 vCPU, 1GB RAM)
+* Fargate pricing based on [calculator](http://fargate-pricing-calculator.site.s3-website-us-east-1.amazonaws.com/) **35.546 USD** (1 vCPU, 2GB RAM) or **17.773 USD** (0.5 vCPU, 1GB RAM)
 * EC2 Application Load Balancer based on [calculator](https://aws.amazon.com/elasticloadbalancing/pricing/) **19.35 USD** (0.5 GB / hour, 0.5 connections / second)
 * S3 + Cloudwatch = varies based on usage
 

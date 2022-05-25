@@ -31,7 +31,7 @@
 * [Web Dashboard](configuration/dashboard-configuration/README.md)
   * [Configuration](configuration/dashboard-configuration/configuration.md)
 * [MongoDB Configuration](configuration/mongodb-configuration.md)
-* [FAQ](configuration/faq.md)
+* [Troubleshooting](configuration/troubleshooting.md)
 
 ## Integrations
 
