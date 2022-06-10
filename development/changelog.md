@@ -1,5 +1,15 @@
 # Changelog
 
+## 2.1.3
+
+### What's Changed
+
+* fix: fixes [#555](https://github.com/sorry-cypress/sorry-cypress/issues/555) mocha statuses are converted to cypress statuses by [@Aeolun](https://github.com/Aeolun) in [#580](https://github.com/sorry-cypress/sorry-cypress/pull/580)
+* \[Snyk] Security upgrade nginx from 1-alpine to 1.22.0-alpine by [@agoldis](https://github.com/agoldis) in [#579](https://github.com/sorry-cypress/sorry-cypress/pull/579)
+* build(deps): bump dset from 3.1.1 to 3.1.2 by [@dependabot](https://github.com/dependabot) in [#577](https://github.com/sorry-cypress/sorry-cypress/pull/577)
+
+**Full Changelog**: [v2.1.2...v2.1.3](https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.2...v2.1.3)
+
 ## 2.1.2
 
 ### What's Changed
