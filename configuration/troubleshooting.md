@@ -43,7 +43,7 @@ Most chances something is wrong with your setup or the way you're connecting to 
 
 * Examine the logs files
   * Run cypress runner in debug mode - `DEBUG=cypress:server:* cypress run ...`
-  * Examine sorry-cypress log files and identify the relevant
+  * Examine sorry-cypress log files and identify the requests / responses that are not working as expected
 * Check out available [Support](../support.md) options if you still need help. Collect all the relevant logs, configuration, describe the desired and the actual results.
 
 ###
