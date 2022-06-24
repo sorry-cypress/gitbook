@@ -1,5 +1,22 @@
 # Changelog
 
+## 2.1.4
+
+### What's Changed
+
+* feat: allow toggling readable spec names by [@ImanMahmoudinasab](https://github.com/ImanMahmoudinasab) in [#588](https://github.com/sorry-cypress/sorry-cypress/pull/588)
+* feat: Add mongodb health checks by [@Hackatosh](https://github.com/Hackatosh) in [#589](https://github.com/sorry-cypress/sorry-cypress/pull/589)
+* docs: add Hackatosh as a contributor for code by [@allcontributors](https://github.com/allcontributors) in [#593](https://github.com/sorry-cypress/sorry-cypress/pull/593)
+* \[Snyk] Security upgrade apollo-server from 2.25.3 to 3.0.0 by [@snyk-bot](https://github.com/snyk-bot) in [#591](https://github.com/sorry-cypress/sorry-cypress/pull/591)
+* \[Snyk] Security upgrade apollo-server-express from 2.25.4 to 3.0.0 by [@agoldis](https://github.com/agoldis) in [#594](https://github.com/sorry-cypress/sorry-cypress/pull/594)
+* build(deps): bump shell-quote from 1.7.2 to 1.7.3 by [@dependabot](https://github.com/dependabot) in [#592](https://github.com/sorry-cypress/sorry-cypress/pull/592)
+
+### New Contributors
+
+* [@Hackatosh](https://github.com/Hackatosh) made their first contribution in [#589](https://github.com/sorry-cypress/sorry-cypress/pull/589)
+
+**Full Changelog**: [v2.1.3...v2.1.4](https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.3...v2.1.4)
+
 ## 2.1.3
 
 ### What's Changed
