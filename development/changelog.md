@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.5
+
+### What's Changed
+
+* Add Azure Blob Storage support by [@Hackatosh](https://github.com/Hackatosh) in [#595](https://github.com/sorry-cypress/sorry-cypress/pull/595)
+
+**Full Changelog**: [v2.1.4...v2.1.5](https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.4...v2.1.5)
+
 ## 2.1.4
 
 ### What's Changed
