@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.6
+
+### What's Changed
+
+* Restore apollo playground by [@agoldis](https://github.com/agoldis)
+
+**Full Changelog**: [v2.1.5...v2.1.6](https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.5...v2.1.6)
+
 ## 2.1.5
 
 ### What's Changed
