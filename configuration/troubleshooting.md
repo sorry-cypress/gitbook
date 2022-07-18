@@ -8,7 +8,22 @@ This is a collection of most common questions associated with Sorry Cypress setu
 
 ### Can I use a private AWS  S3 bucket with sorry-cypress?
 
-This is not trivial. If you find a proper configuration, please contribute to this documentation for others to follow. Please refer to the following scheme for reference.
+Yes! In orther to use a private S3 bucket with sorry-cypress, you need to create a bucket with the following:
+
+1. A `public-read` ACL
+2. Public Access Block should be:
+```terraform
+block_public_acls       = false
+block_public_policy     = true
+ignore_public_acls      = false
+restrict_public_buckets = true
+```
+3. A bucket resource policy making it private. You can restrict bucket access based on the source IP, or only from sources in your private VPC, for example.
+
+Please refer to the [`s3.tf`](https://github.com/feedzai/terraform-aws-sorry-cypress/blob/main/s3.tf) file in the [`terraform-aws-sorry-cypress`](https://github.com/feedzai/terraform-aws-sorry-cypress) module to find and example of an S3 bucket configuration.
+
+
+Please refer to the following scheme for reference.
 
 1. **Upload flow:** Cypress runner reports its results to director service
 2. Director service get [signed S3 upload URL](https://docs.aws.amazon.com/AmazonS3/latest/userguide/PresignedUrlUploadObject.html) from the configured AWS S3 bucket (or any other object storage compatible service - e.g. [minio](director-configuration/minio-configuration.md))
