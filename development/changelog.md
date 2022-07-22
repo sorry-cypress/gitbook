@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.1.7
+
+### What's Changed
+
+* feat: add indexes to speed up the runs page and ci build redirect query by [@Aeolun](https://github.com/Aeolun) in [#603](https://github.com/sorry-cypress/sorry-cypress/pull/603)
+* Add content type to blob storage url generation by [@Hackatosh](https://github.com/Hackatosh) in [#606](https://github.com/sorry-cypress/sorry-cypress/pull/606)
+
+**Full Changelog**: [v2.1.6...v2.1.7](https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.6...v2.1.7)
+
 ## 2.1.6
 
 ### What's Changed
