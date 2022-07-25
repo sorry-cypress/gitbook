@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.2.0
+
+### What's Changed
+
+* Enhance sidebar layout by [@fsmaia](https://github.com/fsmaia) in [#608](https://github.com/sorry-cypress/sorry-cypress/pull/608)
+* Use classic status items for tests by [@agoldis](https://github.com/agoldis) in [#609](https://github.com/sorry-cypress/sorry-cypress/pull/609)
+
+**Full Changelog**: [v2.1.7...v2.2.0](https://github.com/sorry-cypress/sorry-cypress/compare/v2.1.7...v2.2.0)
+
 ## v2.1.7
 
 ### What's Changed
