@@ -1,5 +1,14 @@
 # Changelog
 
+## v2.2.1
+
+### What's Changed
+
+* Fix word break overflow by [@fsmaia](https://github.com/fsmaia) in [#610](https://github.com/sorry-cypress/sorry-cypress/pull/610)
+* Fix upload urls in `docker-compose.minio.yml` by [@Hackatosh](https://github.com/Hackatosh) in [#611](https://github.com/sorry-cypress/sorry-cypress/pull/611)
+
+**Full Changelog**: [v2.2.0...v2.2.1](https://github.com/sorry-cypress/sorry-cypress/compare/v2.2.0...v2.2.1)
+
 ## v2.2.0
 
 ### What's Changed
