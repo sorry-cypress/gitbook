@@ -1,5 +1,21 @@
 # Changelog
 
+## v2.3.0
+
+### What's Changed
+
+* gchat webhook by [@joaoduartepinto](https://github.com/joaoduartepinto) in [#612](https://github.com/sorry-cypress/sorry-cypress/pull/612)
+* Fix off-by-one error in the in-memory director by [@alyssa-glean](https://github.com/alyssa-glean) in [#615](https://github.com/sorry-cypress/sorry-cypress/pull/615)
+* docs: add joaoduartepinto as a contributor for code by [@allcontributors](https://github.com/allcontributors) in [#616](https://github.com/sorry-cypress/sorry-cypress/pull/616)
+* docs: add alyssa-glean as a contributor for code by [@allcontributors](https://github.com/allcontributors) in [#618](https://github.com/sorry-cypress/sorry-cypress/pull/618)
+
+### New Contributors
+
+* [@joaoduartepinto](https://github.com/joaoduartepinto) made their first contribution in [#612](https://github.com/sorry-cypress/sorry-cypress/pull/612)
+* [@alyssa-glean](https://github.com/alyssa-glean) made their first contribution in [#615](https://github.com/sorry-cypress/sorry-cypress/pull/615)
+
+**Full Changelog**: [v2.2.1...v2.3.0](https://github.com/sorry-cypress/sorry-cypress/compare/v2.2.1...v2.3.0)
+
 ## v2.2.1
 
 ### What's Changed
