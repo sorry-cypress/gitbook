@@ -70,9 +70,9 @@ Sorry-cypress integrates with the major remote cloud storage solutions:
 * Minio integration \(via [Minio S3 Gateway](https://docs.min.io/docs/minio-gateway-for-s3.html)\) that is compatible with
   * Google Cloud Storage
   * IBM COS
-  * Azure Blob Storage
   * NAS
   * HDFS
+* Azure Blob Storage
 
 To disable remote storage, we need to set a "dummy" screenshots driver for Director service.
 

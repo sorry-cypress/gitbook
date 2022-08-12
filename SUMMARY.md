@@ -27,6 +27,7 @@
   * [AWS Role Assumption via Service Account](configuration/director-configuration/aws-role-based-auth.md)
   * [AWS S3 Configuration](configuration/director-configuration/aws-s3-configuration.md)
   * [Minio Configuration](configuration/director-configuration/minio-configuration.md)
+  * [Azure Blob Storage Configuration](configuration/director-configuration/azure-blob-storage-configuration.md)
 * [API Service](configuration/api-configuration.md)
 * [Web Dashboard](configuration/dashboard-configuration/README.md)
   * [Configuration](configuration/dashboard-configuration/configuration.md)
