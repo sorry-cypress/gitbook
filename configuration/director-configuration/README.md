@@ -48,7 +48,8 @@ Set the execution driver for Director service. Possible values are:
 * `../screenshots/dummy.driver` - don't store anything, dummy driver
 * `../screenshots/s3.driver` - use AWS S3. See [Full Setup](../persistent.md#director-service) for details.
 * `../screenshots/minio.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
-
+* `../screenshots/azure-blob-storage.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
+* 
 ### AWS S3 Remote Storage Configuration
 
 Refer to [AWS S3 Configuration.](aws-s3-configuration.md)
@@ -57,3 +58,6 @@ Refer to [AWS S3 Configuration.](aws-s3-configuration.md)
 
 Read [Minio Configuration](minio-configuration.md) for Director
 
+### Azure Blob Storage Configuration
+
+Refer to [Azure Blob Storage Configuration](azure-blob-storage-configuration.md)
