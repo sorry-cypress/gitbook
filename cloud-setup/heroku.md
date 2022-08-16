@@ -13,19 +13,20 @@ Click the button below to deploy the basic, in-memory, standalone `director` ser
 ### Full sorry-cypress kit on Heroku
 
 {% hint style="info" %}
-* Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-* You must have [Docker](https://docs.docker.com/get-docker/) set up locally to continue
-{% endhint %}
+
+- Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+- You must have [Docker](https://docs.docker.com/get-docker/) set up locally to continue
+  {% endhint %}
 
 We'll create 3 separate Heroku applications - one for each service. Publicly available docker images of 3 services are available at:
 
-* [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director)
-* [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api)
-* [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard)
+- [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director)
+- [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api)
+- [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard)
 
 The images are automatically updated on each release and tagged in accordance with GitHub releases.
 
-sorry-cypress uses MongoDB as a persistence layer for storing and retrieving test results. We'll use a free  hosted solution to run a managed instance of [Atlas](https://www.mongodb.com/cloud/atlas) MongoDB.
+sorry-cypress uses MongoDB as a persistence layer for storing and retrieving test results. We'll use a free hosted solution to run a managed instance of [Atlas](https://www.mongodb.com/cloud/atlas) MongoDB.
 
 #### Creating Heroku Application
 
@@ -37,7 +38,7 @@ heroku create <prefix>-api
 heroku create <prefix>-dashboard
 ```
 
-Run the commands to deploy  `director` , `API` and `Dashboard` services
+Run the commands to deploy `director` , `API` and `Dashboard` services
 
 ```bash
 # Sign into Heroku Container Registry.
@@ -118,6 +119,9 @@ MONGODB_DATABASE=<atlas_database_name>
 
 # MongoDB connection string
 MONGODB_URI=<atlas_database_access_credentials>
+
+# Enable or disable Apollo playgroun landing page
+APOLLO_PLAYGROUND=<apollo_playground>
 ```
 
 #### Setup `Dashboard` Service
