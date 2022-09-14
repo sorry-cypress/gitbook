@@ -35,7 +35,7 @@ Looking for help with installation and / or features? Check out our [Support](su
 * Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latests updates
 * Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared\_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
 
-## ⚡️ Sorry Cypress in Cloud - Currents
+## ⚡️ Sorry Cypress on Cloud - Currents
 
 Sorry Cypress is 100% open source project, if you're happy to manage your own infrastructure, please continue reading our [guides](guide/get-started.md) and installation instructions.
 
