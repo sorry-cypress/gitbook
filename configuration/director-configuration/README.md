@@ -26,6 +26,12 @@ This can be useful when cypress is running on external CI servers and we need to
 
 Empty or not provided variable means that all record keys are allowed.
 
+`GITLAB_JOB_RETRY=false`
+
+Enables/disables the ability to retry tests by rerunning CI jobs on GitLab.
+
+This functionality is only supported when using the mongo execution driver.
+
 ## Persistence Configuration
 
 `EXECUTION_DRIVER="../execution/in-memory"`
