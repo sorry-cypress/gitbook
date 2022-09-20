@@ -26,7 +26,7 @@ This can be useful when cypress is running on external CI servers and we need to
 
 Empty or not provided variable means that all record keys are allowed.
 
-`GITLAB_JOB_RETRY=false`
+`GITLAB_JOB_RETRIES=false`
 
 Enables/disables the ability to retry tests by rerunning CI jobs on GitLab.
 
@@ -56,6 +56,7 @@ Set the execution driver for Director service. Possible values are:
 * `../screenshots/minio.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
 * `../screenshots/azure-blob-storage.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
 * 
+
 ### AWS S3 Remote Storage Configuration
 
 Refer to [AWS S3 Configuration.](aws-s3-configuration.md)
