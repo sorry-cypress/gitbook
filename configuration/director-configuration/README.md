@@ -38,8 +38,8 @@ This functionality is only supported when using the mongo execution driver.
 
 Set the execution driver for Director service. Possible values are:
 
-- `../execution/in-memory` - Director will keep all the data in-memory. See [Basic Setup](../in-memory.md).
-- `../execution/mongo/driver` - use MongoDB as a persistence. See [Full Setup](../persistent.md#director-service).
+* `../execution/in-memory` - Director will keep all the data in-memory. See [Basic Setup](../in-memory.md).
+* `../execution/mongo/driver` - use MongoDB as a persistence. See [Full Setup](../persistent.md#director-service).
 
 ## MongoDB Configuration
 
@@ -51,11 +51,11 @@ Used when mogo persistence configuration is selected. Refer to [MongoDB Configur
 
 Set the execution driver for Director service. Possible values are:
 
-- `../screenshots/dummy.driver` - don't store anything, dummy driver
-- `../screenshots/s3.driver` - use AWS S3. See [Full Setup](../persistent.md#director-service) for details.
-- `../screenshots/minio.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
-- `../screenshots/azure-blob-storage.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
--
+* `../screenshots/dummy.driver` - don't store anything, dummy driver
+* `../screenshots/s3.driver` - use AWS S3. See [Full Setup](../persistent.md#director-service) for details.
+* `../screenshots/minio.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
+* `../screenshots/azure-blob-storage.driver`- use Minio. See [Full Setup](../persistent.md#director-service) for details.
+* 
 
 ### AWS S3 Remote Storage Configuration
 
