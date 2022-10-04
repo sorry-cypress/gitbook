@@ -67,3 +67,9 @@ Read [Minio Configuration](minio-configuration.md) for Director
 ### Azure Blob Storage Configuration
 
 Refer to [Azure Blob Storage Configuration](azure-blob-storage-configuration.md)
+
+## Probe logs
+
+`PROBE_LOGGER=false`
+
+Enable or disable Director healthchecks logs.
