@@ -26,7 +26,7 @@ Looking for help with installation and / or features? Check out our [Support](su
 
 ## ❤️ Contribute
 
-* ⭐️  the project on [GitHub](https://github.com/sorry-cypress/sorry-cypress.dev)
+* ⭐️ the project on [GitHub](https://github.com/sorry-cypress/sorry-cypress.dev)
 * Donate via [GitHub Sponsors](https://github.com/sponsors/agoldis) or [Open Collective](https://opencollective.com/sorry-cypress)
 * Check out our [Contribution Guide](contributions.md)
 
@@ -41,4 +41,4 @@ Sorry Cypress is 100% open source project, if you're happy to manage your own in
 
 [https://currents.dev](https://currents.dev/?utm\_source=docs-sc) is a cloud-based, production-grade, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
 
-Check out the [full features comparison table ](https://currents.notion.site/Features-Comparison-83229899965147eab011aba2a2fcd421)to see how Currents is different from Sorry Cypress.
+Check out the [full features comparison table ](https://currents.notion.site/Features-Comparison-83229899965147eab011aba2a2fcd421)to see how Currents is different from Sorry Cypress. You can also check out the [Cypress Dashboard vs. Currents Guide.](https://currents.dev/posts/currents-vs-cypress)
