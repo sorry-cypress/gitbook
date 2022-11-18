@@ -1,5 +1,11 @@
 # cy2
 
+{% hint style="info" %}
+cy2 is compatible with Cypress 11.&#x20;
+
+Read more at: [https://currents.dev/readme/guides/cypress-11](https://currents.dev/readme/guides/cypress-11)
+{% endhint %}
+
 `cy2` is a tiny [NPM package](https://www.npmjs.com/package/cy2) that changes cypress API server configuration on-the-fly using the environment variable `CYPRESS_API_URL`
 
 The command passes down to cypress all the CLI flags, so you can just use it instead of `cypress`&#x20;
