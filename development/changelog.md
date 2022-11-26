@@ -4,6 +4,18 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.1
+
+### What's Changed
+
+* feat: Add screenshot zoom in/out on preview functionality by [@matrunchyk](https://github.com/matrunchyk) in [#700](https://github.com/sorry-cypress/sorry-cypress/pull/700)
+
+### New Contributors
+
+* [@matrunchyk](https://github.com/matrunchyk) made their first contribution in [#700](https://github.com/sorry-cypress/sorry-cypress/pull/700)
+
+**Full Changelog**: [v2.5.0...v2.5.1](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.0...v2.5.1)
+
 ## v2.5.0
 
 ### What's Changed
