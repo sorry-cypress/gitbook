@@ -46,13 +46,12 @@
 ## Concepts
 
 * [Parallelization Explained](concepts/parallelization-guide.md)
-* [Inactivity Timeout \[deprecated\]](concepts/inactivity-timeout.md)
 
 ## Cypress Agent
 
 * [cy2](cypress-agent/cy2.md)
-* [Agent Configuration](cypress-agent/configuring-cypress-agent.md)
-* [CLI One Liners](cypress-agent/cli-one-liners.md)
+* [Agent Configuration - Deprecated](cypress-agent/configuring-cypress-agent.md)
+* [CLI One Liners - Deprecated](cypress-agent/cli-one-liners.md)
 
 ## CI
 

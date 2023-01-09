@@ -2,7 +2,7 @@
 
 ![](.gitbook/assets/banner.dark.png)
 
-Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress dashboard 🌲
+Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress Cloud 🌲
 
 ## ⭐️ Features
 
@@ -20,6 +20,14 @@ Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress 
   * Google Cloud
   * Azure
 
+## ⚡️ Sorry Cypress on Cloud - Currents
+
+Sorry Cypress is 100% open source project, if you're happy to manage your own infrastructure, please continue reading our [guides](guide/get-started.md) and installation instructions.
+
+[https://currents.dev](https://currents.dev/?utm\_source=docs-sc) is a cloud-based, production-grade, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
+
+Check out the [Cypress Dashboard vs. Currents Guide.](https://currents.dev/posts/currents-vs-cypress)
+
 ## 💎 Support
 
 Looking for help with installation and / or features? Check out our [Support](support.md) options
@@ -32,13 +40,5 @@ Looking for help with installation and / or features? Check out our [Support](su
 
 ## 🤙 Stay in touch
 
-* Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latests updates
+* Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latest updates
 * Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared\_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
-
-## ⚡️ Sorry Cypress on Cloud - Currents
-
-Sorry Cypress is 100% open source project, if you're happy to manage your own infrastructure, please continue reading our [guides](guide/get-started.md) and installation instructions.
-
-[https://currents.dev](https://currents.dev/?utm\_source=docs-sc) is a cloud-based, production-grade, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
-
-Check out the [full features comparison table ](https://currents.notion.site/Features-Comparison-83229899965147eab011aba2a2fcd421)to see how Currents is different from Sorry Cypress. You can also check out the [Cypress Dashboard vs. Currents Guide.](https://currents.dev/posts/currents-vs-cypress)

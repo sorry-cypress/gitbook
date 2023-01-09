@@ -2,16 +2,12 @@
 description: Changing cypress agent configuration
 ---
 
-# Agent Configuration
+# Agent Configuration - Deprecated
 
 {% hint style="danger" %}
-Cypress 11 deprecated agent configuration files.
+**Please note**
 
-See the migration guide [https://currents.dev/readme/guides/cypress-11](https://currents.dev/readme/guides/cypress-11)
-{% endhint %}
-
-{% hint style="info" %}
-You can easily set cypress API server URL by using NPM[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](cy2.md)
+Cypress 11 and 12+ deprecated agent configuration files. Please make sure to use the latest version of cy2 package. See more at [https://currents.dev/readme/guides/cypress-compatibility](https://currents.dev/readme/guides/cypress-compatibility)
 {% endhint %}
 
 Find cypress installation path
@@ -37,8 +33,4 @@ production:
   api_url: "http://localhost:1234/"
 ...
 ```
-
-{% hint style="info" %}
-Make sure to change the configuration on every machine that runs cypress test in your CI environment
-{% endhint %}
 

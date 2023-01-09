@@ -458,7 +458,7 @@ See the complete list of changes on GitHub https://github.com/sorry-cypress/sorr
 
 ### Added
 
-* Sorry Cypress is now able to detect stale runs and properly report RUN\_FINISH hook using I[nactivity Timeout.](../concepts/inactivity-timeout.md) That includes. more complex cases when multiple spec groups involved.
+* Sorry Cypress is now able to detect stale runs and properly report RUN\_FINISH hook using I[nactivity Timeout.](broken-reference) That includes. more complex cases when multiple spec groups involved.
 * Optional [Redis](../configuration/persistent.md#redis-optional) integration via `REDIS_URI` director configuration variable.
 * Bitbucket Integration
 

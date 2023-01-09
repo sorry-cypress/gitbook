@@ -2,16 +2,12 @@
 description: One-liners to easily change cypress configuration
 ---
 
-# CLI One Liners
+# CLI One Liners - Deprecated
 
 {% hint style="danger" %}
-Cypress 11 deprecated agent configuration files.
+**Please note**
 
-See the migration guide [https://currents.dev/readme/guides/cypress-11](https://currents.dev/readme/guides/cypress-11)
-{% endhint %}
-
-{% hint style="info" %}
-You can easily change cypress API server URL by using NPM[`cy2`](https://www.npmjs.com/package/cy2) package.  [Read more.](cy2.md)
+Cypress 11 and 12+ deprecated agent configuration files. Please make sure to use the latest version of cy2 package. See more at [https://currents.dev/readme/guides/cypress-compatibility](https://currents.dev/readme/guides/cypress-compatibility)
 {% endhint %}
 
 Use this CLI one-liner to change cypress configuration for all installed versions of cypress
