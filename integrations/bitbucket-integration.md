@@ -25,7 +25,7 @@ Ensure your "projectId" matches that in your cypress.json or cypress.config.js t
       "hookId": "1",
       "url": "http://localhost:3005",
       "hookType": "BITBUCKET_STATUS_HOOK",
-      "bitbucketUsername": "BITBUCKET_STATUS_HOOK",
+      "bitbucketUsername": "username",
       "bitbucketToken": "token",
       "bitbucketBuildName": "build"
     }
