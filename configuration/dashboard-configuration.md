@@ -30,3 +30,6 @@ Example:
 
 
 
+`BASE_PATH="/"`
+
+Service's base path, useful for reverse proxies
