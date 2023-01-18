@@ -32,6 +32,11 @@ Enables/disables the ability to retry tests by rerunning CI jobs on GitLab.
 
 This functionality is only supported when using the mongo execution driver.
 
+`BASE_PATH="/"`
+
+Service's base path, useful for reverse proxies
+
+
 ## Persistence Configuration
 
 `EXECUTION_DRIVER="../execution/in-memory"`

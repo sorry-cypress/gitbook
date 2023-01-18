@@ -14,7 +14,11 @@ Default number of items to serve for runs feed
 
 `APOLLO_PLAYGROUND=false`
 
-Enable or disable Apollo playgroun landing page
+Enable or disable Apollo playground landing page
+
+`BASE_PATH="/graphql"`
+
+Service's base path, useful for reverse proxies
 
 ### MongoDB Connection Settings
 
