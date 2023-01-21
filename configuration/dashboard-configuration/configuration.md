@@ -6,10 +6,9 @@ Dashboard will listen on that port
 
 
 
-`GRAPHQL_SCHEMA_URL="http://localhost:4000"`
+`GRAPHQL_SCHEMA_URL="http://localhost:4000/graphql"`
 
 The publicly accessible URL of API service. GraphQL client will use it to pull schema definitions and issue queries.
-
 
 
 `CI_URL=Link name,https://your.ci.service/project/{project_id}/build/{build_id}`
