@@ -11,3 +11,25 @@ Integrating with Bitbucket allows [reporting build status](https://developer.atl
 Sorry-cypress would update build status to failure / success.
 
 ![](../.gitbook/assets/screen-shot-2021-03-11-at-11.16.28-pm.png)
+
+If you are using the in-memory director and do not have a dashboard you can add hooks to your project via a HTTP `POST` to the `/hooks` route of your director. 
+Ensure your "projectId" matches that in your cypress.json or cypress.config.js that you wish to add hooks to. Note this will replace all the hooks for the given projectId.
+
+```
+//Example POST body to localhost:1234/hooks
+
+{
+  "projectId": "test",
+  "hooks": [
+    {
+      "hookId": "1",
+      "url": "http://localhost:3005",
+      "hookType": "BITBUCKET_STATUS_HOOK",
+      "bitbucketUsername": "username",
+      "bitbucketToken": "token",
+      "bitbucketBuildName": "build"
+    }
+  ]
+}
+
+```

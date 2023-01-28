@@ -9,6 +9,6 @@ The following events are supported:
 * `INSTANCE_FINISH` - a spec file reported completion
 * `RUN_FINISH` - runs finished after reaching [Inactivity Timeout](broken-reference)
 
-You can edit the integration individually for each project.
+You can edit the integration individually for each project via dashboard or an HTTP `POST` to director if using Getting Started setup (in-memory database).
 
 See the detailed documentation for each integration type.
