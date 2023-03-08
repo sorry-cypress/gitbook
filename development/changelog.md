@@ -4,6 +4,31 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.2
+
+### What's Changed
+
+* allow use s3 in path style by [@thuvh](https://github.com/thuvh) in [#712](https://github.com/sorry-cypress/sorry-cypress/pull/712)
+* fix: update docker-compose.minio.yml file by [@Zaista](https://github.com/Zaista) in [#708](https://github.com/sorry-cypress/sorry-cypress/pull/708)
+* build(deps): bump fast-json-patch from 3.1.0 to 3.1.1 by [@dependabot](https://github.com/dependabot) in [#715](https://github.com/sorry-cypress/sorry-cypress/pull/715)
+* docs: add amit-o as a contributor for code by [@allcontributors](https://github.com/allcontributors) in [#720](https://github.com/sorry-cypress/sorry-cypress/pull/720)
+* Add base path overrides by [@amit-o](https://github.com/amit-o) in [#718](https://github.com/sorry-cypress/sorry-cypress/pull/718)
+* Fix api base path, add tests by [@amit-o](https://github.com/amit-o) in [#728](https://github.com/sorry-cypress/sorry-cypress/pull/728)
+* docs: add blakeromano as a contributor for code by [@allcontributors](https://github.com/allcontributors) in [#736](https://github.com/sorry-cypress/sorry-cypress/pull/736)
+* build(deps): bump http-cache-semantics from 4.1.0 to 4.1.1 by [@dependabot](https://github.com/dependabot) in [#733](https://github.com/sorry-cypress/sorry-cypress/pull/733)
+* Turborepo by [@nmengual](https://github.com/nmengual) in [#741](https://github.com/sorry-cypress/sorry-cypress/pull/741)
+* docs: add nmengual as a contributor for code \[skip ci] by [@allcontributors](https://github.com/allcontributors) in [#746](https://github.com/sorry-cypress/sorry-cypress/pull/746)
+
+### New Contributors
+
+* [@thuvh](https://github.com/thuvh) made their first contribution in [#712](https://github.com/sorry-cypress/sorry-cypress/pull/712)
+* [@amit-o](https://github.com/amit-o) made their first contribution in [#718](https://github.com/sorry-cypress/sorry-cypress/pull/718)
+* [@kuznar](https://github.com/kuznar) made their first contribution in [#721](https://github.com/sorry-cypress/sorry-cypress/pull/721)
+* [@blakeromano](https://github.com/blakeromano) made their first contribution in [#735](https://github.com/sorry-cypress/sorry-cypress/pull/735)
+* [@nmengual](https://github.com/nmengual) made their first contribution in [#741](https://github.com/sorry-cypress/sorry-cypress/pull/741)
+
+**Full Changelog**: [v2.5.1...v2.5.2](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.1...v2.5.2)
+
 ## v2.5.1
 
 ### What's Changed
