@@ -14,4 +14,4 @@ It coordinates requests from cypress agents, providing each agent with different
 
 You will still need to set up (and pay for) a CI environment that runs cypress agents.&#x20;
 
-When using sorry-cypress you'll need to [override the default configuration](../cypress-agent/configuring-cypress-agent.md) to set an alternative URL for contacting the remote dashboard.&#x20;
+When using sorry-cypress you'll need to [override the default configuration](../integrating-cypress/configuring-cypress-agent.md) to set an alternative URL for contacting the remote dashboard.&#x20;

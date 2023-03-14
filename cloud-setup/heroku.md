@@ -13,16 +13,15 @@ Click the button below to deploy the basic, in-memory, standalone `director` ser
 ### Full sorry-cypress kit on Heroku
 
 {% hint style="info" %}
-
-- Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-- You must have [Docker](https://docs.docker.com/get-docker/) set up locally to continue
-  {% endhint %}
+* Download and install the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+* You must have [Docker](https://docs.docker.com/get-docker/) set up locally to continue
+{% endhint %}
 
 We'll create 3 separate Heroku applications - one for each service. Publicly available docker images of 3 services are available at:
 
-- [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director)
-- [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api)
-- [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard)
+* [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-director)
+* [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-api)
+* [https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard](https://hub.docker.com/repository/docker/agoldis/sorry-cypress-dashboard)
 
 The images are automatically updated on each release and tagged in accordance with GitHub releases.
 
@@ -69,7 +68,7 @@ heroku container:release --app <name_of_dashboard_app> web
 
 Choose the MongoDB provider of your choice and obtain connection details. You will need to set the credentials for newly deployed services.
 
-Heroku has a plenty of add-ons that allows attaching a MongoDB cluster. The recommended way is to attach a MongoDB add-on to `director` application and use the same credentials for `API` service.&#x20;
+Heroku has a plenty of add-ons that allows attaching a MongoDB cluster. The recommended way is to attach a MongoDB add-on to `director` application and use the same credentials for `API` service.
 
 All you'll need is the database name and the access credentials so you can fill the Heroku config variables as we'll see right after. So go ahead to the [MongoDB Atlas docs](https://docs.atlas.mongodb.com/getting-started/), get your database running and grab that data!
 
@@ -131,4 +130,4 @@ APOLLO_PLAYGROUND=<apollo_playground>
 GRAPHQL_SCHEMA_URL=<api_app_url>
 ```
 
-[Reconfigure cypress agents](../cypress-agent/configuring-cypress-agent.md) and try running some tests. You will see test results appear in the newly installed dashboard.
+[Reconfigure cypress agents](../integrating-cypress/configuring-cypress-agent.md) and try running some tests. You will see test results appear in the newly installed dashboard.

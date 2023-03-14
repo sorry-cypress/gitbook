@@ -32,7 +32,7 @@ The Cloud Formation stack uses AWS Elastic Container Service (ECS) to run sorry-
 
 The artifacts created by the stack are:
 
-* Director URL - this is what you provide when [configure cypress agent to use the alternative dashboard.](../../cypress-agent/configuring-cypress-agent.md)
+* Director URL - this is what you provide when [configure cypress agent to use the alternative dashboard.](../../integrating-cypress/configuring-cypress-agent.md)
 * Dashboard URL - web dashboard access URL
 * API URL - GraphQL API access URL
 * S3 Bucket - for storing tests video recordings and screenshots
@@ -54,7 +54,7 @@ The amount of memory units dedicated to running the services. This resource is a
 
 `DirectorPort (default: 8080)`
 
-The port number for accessing the director service. You'll need to use it as a destination when [configuring cypress agents](../../cypress-agent/configuring-cypress-agent.md).
+The port number for accessing the director service. You'll need to use it as a destination when [configuring cypress agents](../../integrating-cypress/configuring-cypress-agent.md).
 
 The stack creates [AWS Application Load Balancer](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/introduction.html) to provide access to the underlying services. By default, AWS LB URL points to the web dashboard (on port `80`). The director service is available via the same URL but different port.
 

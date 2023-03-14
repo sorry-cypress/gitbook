@@ -19,6 +19,13 @@
 * [Docker Images](cloud-setup/docker-images/README.md)
   * [Running Sorry Cypress Dashboard as non-root user](cloud-setup/docker-images/running-sorry-cypress-dashboard-as-non-root-user.md)
 
+## Integrating Cypress&#x20;
+
+* [Integration options](integrating-cypress/integration-options.md)
+* [cy2](integrating-cypress/cy2.md)
+* [Agent Configuration - Deprecated](integrating-cypress/configuring-cypress-agent.md)
+* [CLI One Liners - Deprecated](integrating-cypress/cli-one-liners.md)
+
 ## Configuration
 
 * [Basic Setup](configuration/in-memory.md)
@@ -46,12 +53,6 @@
 ## Concepts
 
 * [Parallelization Explained](concepts/parallelization-guide.md)
-
-## Cypress Agent
-
-* [cy2](cypress-agent/cy2.md)
-* [Agent Configuration - Deprecated](cypress-agent/configuring-cypress-agent.md)
-* [CLI One Liners - Deprecated](cypress-agent/cli-one-liners.md)
 
 ## CI
 

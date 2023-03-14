@@ -6,22 +6,23 @@ description: Common questions and setup issues
 
 This is a collection of most common questions associated with Sorry Cypress setup
 
-### Can I use a private AWS  S3 bucket with sorry-cypress?
+### Can I use a private AWS S3 bucket with sorry-cypress?
 
 Yes! In orther to use a private S3 bucket with sorry-cypress, you need to create a bucket with the following:
 
 1. A `public-read` ACL
 2. Public Access Block should be:
-```terraform
+
+```
 block_public_acls       = false
 block_public_policy     = true
 ignore_public_acls      = false
 restrict_public_buckets = true
 ```
-3. A bucket resource policy making it private. You can restrict bucket access based on the source IP, or only from sources in your private VPC, for example.
+
+1. A bucket resource policy making it private. You can restrict bucket access based on the source IP, or only from sources in your private VPC, for example.
 
 Please refer to the [`s3.tf`](https://github.com/feedzai/terraform-aws-sorry-cypress/blob/main/s3.tf) file in the [`terraform-aws-sorry-cypress`](https://github.com/feedzai/terraform-aws-sorry-cypress) module to find and example of an S3 bucket configuration.
-
 
 Please refer to the following scheme for reference.
 
@@ -43,19 +44,13 @@ Please refer to the following scheme for reference.
 
 Most chances something is wrong with your setup or the way you're connecting to sorry-cypress. Try following the next steps for troubleshooting before submitting support requests.
 
-*   Make sure Sorry Cypress services are up and running
-
-    * Director service is reachable, is connected to the right DB and it logs the requests
-    * API service is reachable and is connected to the right DB and it logs the requests
-    * Dashboard loads with empty results
-
-
-*   Ensure you're [reconfiguring cypress](../cypress-agent/cy2.md) to use Director's service URL.&#x20;
-
-    * Run cypress in debug mode `DEBUG=cypress:server:*` to see the details of network requests - the debug mode works both when running  `cypress` and  `cy2`
-    * Examine Director service log files to see the incoming requests
-
-
+* Make sure Sorry Cypress services are up and running
+  * Director service is reachable, is connected to the right DB and it logs the requests
+  * API service is reachable and is connected to the right DB and it logs the requests
+  * Dashboard loads with empty results
+* Ensure you're [reconfiguring cypress](../integrating-cypress/cy2.md) to use Director's service URL.
+  * Run cypress in debug mode `DEBUG=cypress:server:*` to see the details of network requests - the debug mode works both when running `cypress` and `cy2`
+  * Examine Director service log files to see the incoming requests
 * Examine the logs files
   * Run cypress runner in debug mode - `DEBUG=cypress:server:* cypress run ...`
   * Examine sorry-cypress log files and identify the requests / responses that are not working as expected

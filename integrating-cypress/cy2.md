@@ -1,9 +1,7 @@
 # cy2
 
 {% hint style="info" %}
-Please note:&#x20;
-
-Cypress introduced a breaking change in versions 11 and 12. Please make sure to use the latest version of cy2. Read more at [https://currents.dev/readme/guides/cypress-compatibility](https://currents.dev/readme/guides/cypress-compatibility)
+Cypress introduced a breaking change in version 12. Please consider using `cypress-cloud` integration tool instead of cy2
 {% endhint %}
 
 `cy2` is an [NPM package](https://www.npmjs.com/package/cy2) that Integrates Cypress with alternative cloud services like Sorry Cypress or Currents by setting the environment variable `CYPRESS_API_URL.`
