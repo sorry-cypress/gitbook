@@ -4,6 +4,20 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.4
+
+### What's Changed
+
+* \[Snyk] Security upgrade minio from 7.0.28 to 7.0.33 by [@agoldis](https://github.com/agoldis) in [#763](https://github.com/sorry-cypress/sorry-cypress/pull/763)
+* build(deps): bump vm2 from 3.9.13 to 3.9.15 by [@dependabot](https://github.com/dependabot) in [#767](https://github.com/sorry-cypress/sorry-cypress/pull/767)
+* build(deps-dev): bump webpack from 5.64.0 to 5.76.0 by [@dependabot](https://github.com/dependabot) in [#758](https://github.com/sorry-cypress/sorry-cypress/pull/758)
+* build(deps): bump vm2 from 3.9.15 to 3.9.16 by [@dependabot](https://github.com/dependabot) in [#769](https://github.com/sorry-cypress/sorry-cypress/pull/769)
+* \[Snyk] Security upgrade @azure/storage-blob from 12.10.0 to 12.13.0 by [@snyk-bot](https://github.com/snyk-bot) in [#768](https://github.com/sorry-cypress/sorry-cypress/pull/768)
+* build(deps): bump ua-parser-js from 0.7.28 to 0.7.33 by [@dependabot](https://github.com/dependabot) in [#730](https://github.com/sorry-cypress/sorry-cypress/pull/730)
+* fix: patch security warnings, upgrade husky by [@agoldis](https://github.com/agoldis) in [#770](https://github.com/sorry-cypress/sorry-cypress/pull/770)
+
+**Full Changelog**: [v2.5.3...v2.5.4](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.3...v2.5.4)
+
 ## v2.5.2
 
 ### What's Changed
