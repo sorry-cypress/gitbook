@@ -17,7 +17,6 @@
 * [Heroku](cloud-setup/heroku.md)
 * [Kubernetes](cloud-setup/kubernetes.md)
 * [Docker Images](cloud-setup/docker-images/README.md)
-  * [Running Sorry Cypress Dashboard as non-root user](cloud-setup/docker-images/running-sorry-cypress-dashboard-as-non-root-user.md)
 
 ## Integrating Cypress&#x20;
 
