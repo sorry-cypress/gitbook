@@ -4,6 +4,17 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.5
+
+### What's Changed
+
+* build(deps): bump vm2 from 3.9.16 to 3.9.17 by [@dependabot](https://github.com/dependabot) in [#776](https://github.com/sorry-cypress/sorry-cypress/pull/776)
+* build(deps): bump vm2 from 3.9.17 to 3.9.19 by [@dependabot](https://github.com/dependabot) in [#782](https://github.com/sorry-cypress/sorry-cypress/pull/782)
+* build(deps): bump fast-xml-parser from 4.2.0 to 4.2.4 by [@dependabot](https://github.com/dependabot) in [#789](https://github.com/sorry-cypress/sorry-cypress/pull/789)
+* fix: prevent crash when attempts are missing by [@agoldis](https://github.com/agoldis) in [#792](https://github.com/sorry-cypress/sorry-cypress/pull/792)
+
+**Full Changelog**: [v2.5.4...v2.5.5](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.4...v2.5.5)
+
 ## v2.5.4
 
 ### What's Changed
