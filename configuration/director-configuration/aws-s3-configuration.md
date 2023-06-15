@@ -48,3 +48,11 @@ Custom prefix for stored images, if set the prefix will be applied e.g.: `${S3_B
 `S3_VIDEO_KEY_PREFIX=null`
 
 Custom prefix for stored videos, if set the prefix will be applied e.g.: `${S3_BUCKET}.s3.amazonaws.com/${S3_VIDEO_KEY_PREFIX}${objectKey}`
+
+
+
+```typescript
+UPLOAD_EXPIRY_SECONDS=90
+```
+
+The expiration time for signed upload URLs to be valid. The director service generates the signed URLs that clients use for uploading the artifacts.
