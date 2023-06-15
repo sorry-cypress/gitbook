@@ -4,6 +4,14 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.6
+
+### What's Changed
+
+* feat: add UPLOAD\_EXPIRY\_SECONDS for signed URL by [@agoldis](https://github.com/agoldis) in [#794](https://github.com/sorry-cypress/sorry-cypress/pull/794)
+
+**Full Changelog**: [v2.5.5...v2.5.6](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.5...v2.5.6)
+
 ## v2.5.5
 
 ### What's Changed
