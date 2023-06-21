@@ -4,6 +4,14 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.7
+
+### What's Changed
+
+* fix: properly resolve UPLOAD\_EXPIRY\_SECONDS value by [@agoldis](https://github.com/agoldis) in [#799](https://github.com/sorry-cypress/sorry-cypress/pull/799)
+
+**Full Changelog**: [v2.5.6...v2.5.7](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.6...v2.5.7)
+
 ## v2.5.6
 
 ### What's Changed
