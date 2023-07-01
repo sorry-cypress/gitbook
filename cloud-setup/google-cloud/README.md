@@ -27,7 +27,7 @@ Once you've created MongoDB cluster and a database, please obtain credentials an
 ### Storage Setup
 
 {% hint style="info" %}
-You can use AWS S3 Storage instead, please refer to [AWS S3 setup instructions](../broken-reference/)
+You can use AWS S3 Storage instead, please refer to [AWS S3 setup instructions](../aws/aws-s3-storage.md)
 {% endhint %}
 
 #### Create Bucket
