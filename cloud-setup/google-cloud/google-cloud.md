@@ -1,36 +1,16 @@
 ---
-description: Sorry-cypress installation instructions for Google Cloud Run
+description: Sorry-cypress installation instructions for Google Cloud Run with MinIO
 ---
 
-# Google Cloud
-
-The suggested setup uses the following stack:
-
-* [Google Cloud Run](https://cloud.google.com/run) services to run sorry-cypress Director, API and Dashboard
-* [Minio Gateway](https://docs.min.io/docs/minio-gateway-for-s3.html) to Google Cloud Storage
-* MongoDB setup of your choice
-
-{% hint style="info" %}
-Please make sure that you have
-
-* recent version of [`gcloud`](https://cloud.google.com/sdk/docs/quickstart) installed
-* Google Cloud project is configured and you have [sufficient permissions](https://cloud.google.com/sdk/docs/authorizing)
-* recent version of Docker installed
-{% endhint %}
-
-### MongoDB Setup
-
-Please use MongoDB provider of your choice. [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is a simple and popular managed solution that also has a free tier.
-
-Once you've created MongoDB cluster and a database, please obtain credentials and database name, you will need it in subsequent steps.
+# Google Cloud & MinIO - Deprecated
 
 ### Minio Gateway
 
-{% hint style="info" %}
-You can use AWS S3 Storage instead, please refer to [AWS S3 setup instructions](broken-reference/)
-{% endhint %}
-
 MinIO GCS Gateway allows to access Google Cloud Storage (GCS) with AWS S3-compatible APIs.
+
+{% hint style="warning" %}
+MinIO Gateway is Deprecated [since February 2022](https://blog.min.io/deprecation-of-the-minio-gateway/?ref=docs-redirect)
+{% endhint %}
 
 #### Create Service Account
 
@@ -108,40 +88,9 @@ docker run -it minio/mc \
 
 🎉 You have setup Minio Gateway that sorry-cypress can use to store the recordings of your runs.
 
-### Deploying sorry-cypress Kit
+### Continue the setup steps for deploying sorry-cypress
 
-Let's create 3 Cloud Run Services and deploy sorry-cypress components. We are going to run the following sequence of commands for each service:
-
-1. Pull latest docker image from Dockerhub
-2. Tag and push image to GCR associated with your project
-3. Deploy Google Cloud Run service using the newly generated image
-
-Running a simple script hosted on GitHub would deploy the services.
-
-* `-p` is the current Google Cloud project
-* `-n` is the name prefix for generated Google Cloud Run services
-
-```bash
-curl -sL https://git.io/Jt4cB  \
-|  source /dev/stdin -p <project> -n <services-prefix>
-
-## Example output:
-# 🏁  Finished deployment to Google Cloud Run
-#
-# test001-director: https://test001-dashboard-dwpifb4gla-uc.a.run.app
-# test001-api: https://test001-dashboard-dwpifb4gla-uc.a.run.app
-# test001-dashboard: https://test001-dashboard-dwpifb4gla-uc.a.run.app
-```
-
-Note the URLs of the generated services, we'll use those in the next step to configure the services so they'll be able to communicate one with another.
-
-### Configuring sorry-cypress Services
-
-Run the commands below, please be careful while substituting template strings with values obtained at previous steps
-
-{% hint style="info" %}
-`MINIO_ENDPOINT` is the hostname of Minio URL you've obtained while setting up Minio Gateway. E.g.
-{% endhint %}
+Continue with the [setup here ](./#deploying-sorry-cypress-kit)and use these environment variables instead:
 
 ```bash
 # director configuration
@@ -169,9 +118,3 @@ gcloud run services update <services_prefix>-dashboard \
   --platform managed \
   --set-env-vars GRAPHQL_SCHEMA_URL="<api_service_url>"
 ```
-
-🎉 Congratulations!
-
-You've finished setting up sorry-cypress on Google Cloud - now you can open the Dashboard URL to see the dashboard.
-
-Don't forget to [reconfigure cypress agents](../integrating-cypress/configuring-cypress-agent.md) to use Director service before running test.
