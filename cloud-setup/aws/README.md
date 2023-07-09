@@ -8,10 +8,10 @@ description: Sorry-cypress installation instructions for AWS
 
 It takes just 5 minutes to deploy full sorry-cypress kit on AWS using AWS Cloud Formation template.
 
-[<img src="../../.gitbook/assets/launch-stack.svg" alt="" data-size="original">](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=sorry-cypress\&templateURL=https://s3.amazonaws.com/agoldis.dev/sorry-cypress/sorry-cypress-stack.yml)
+[<img src="../../.gitbook/assets/launch-stack.svg" alt="" data-size="original">](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=sorry-cypress\&templateURL=https://s3.amazonaws.com/sorry-cypress.dev/cf/sorry-cypress.yml)
 
 1. Click the link, follow on-screen instructions
-2. Wait for deployment to complete
+2. Wait for deloyment to complete
 3. Go to "Output" section of Cloud Formation task to see access URLs
 4. Reconfigure cypress to use `DirectorURL` from the previous step.
 5. That's it!&#x20;
