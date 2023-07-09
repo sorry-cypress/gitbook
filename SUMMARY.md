@@ -12,13 +12,14 @@
 
 * [AWS](cloud-setup/aws/README.md)
   * [AWS S3 Manual Setup](cloud-setup/aws/aws-s3-storage.md)
-* [Google Cloud](cloud-setup/google-cloud.md)
+* [Google Cloud](cloud-setup/google-cloud/README.md)
+  * [Google Cloud & MinIO - Deprecated](cloud-setup/google-cloud/google-cloud.md)
 * [Microsoft Azure](cloud-setup/azure.md)
 * [Heroku](cloud-setup/heroku.md)
 * [Kubernetes](cloud-setup/kubernetes.md)
 * [Docker Images](cloud-setup/docker-images/README.md)
 
-## Integrating Cypress&#x20;
+## Integrating Cypress
 
 * [Integration options](integrating-cypress/integration-options.md)
 * [cy2](integrating-cypress/cy2.md)
