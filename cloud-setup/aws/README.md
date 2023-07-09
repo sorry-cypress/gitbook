@@ -21,7 +21,7 @@ It takes just 5 minutes to deploy full sorry-cypress kit on AWS using AWS Cloud 
 Alternatively, use the commands below
 
 ```bash
-aws cloudformation create-stack --template-url https://s3.amazonaws.com/agoldis.dev/sorry-cypress/sorry-cypress-stack.yml --capabilities CAPABILITY_IAM --stack-name sorry-cypress-2
+aws cloudformation create-stack --template-url https://s3.amazonaws.com/sorry-cypress.dev/cf/sorry-cypress.yml --capabilities CAPABILITY_IAM --stack-name sorry-cypress-2
 ```
 
 ### Stack Overview
