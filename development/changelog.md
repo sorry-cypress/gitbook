@@ -4,6 +4,28 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.8
+
+### What's Changed
+
+* \[Snyk] Security upgrade semver from 7.3.5 to 7.5.2 by [@agoldis](https://github.com/agoldis) in [#800](https://github.com/sorry-cypress/sorry-cypress/pull/800)
+* fix: fix parsing UPLOAD\_EXPIRY\_SECONDS by [@agoldis](https://github.com/agoldis) in [#813](https://github.com/sorry-cypress/sorry-cypress/pull/813)
+* build(deps): bump fast-xml-parser from 4.2.4 to 4.2.5 by [@dependabot](https://github.com/dependabot) in [#814](https://github.com/sorry-cypress/sorry-cypress/pull/814)
+* build(deps): bump tough-cookie from 4.0.0 to 4.1.3 by [@dependabot](https://github.com/dependabot) in [#815](https://github.com/sorry-cypress/sorry-cypress/pull/815)
+* build(deps): bump semver from 7.3.2 to 7.5.2 by [@dependabot](https://github.com/dependabot) in [#803](https://github.com/sorry-cypress/sorry-cypress/pull/803)
+* Start building Arm64 Docker image by [@pavlospt](https://github.com/pavlospt) in [#759](https://github.com/sorry-cypress/sorry-cypress/pull/759)
+* docs: add pavlospt as a contributor for code \[skip ci] by [@allcontributors](https://github.com/allcontributors) in [#817](https://github.com/sorry-cypress/sorry-cypress/pull/817)
+* Add Google Cloud Storage native driver by [@mauriciovillalobos](https://github.com/mauriciovillalobos) in [#807](https://github.com/sorry-cypress/sorry-cypress/pull/807)
+* docs: add mauriciovillalobos as a contributor for code, and doc \[skip ci] by [@allcontributors](https://github.com/allcontributors) in [#818](https://github.com/sorry-cypress/sorry-cypress/pull/818)
+* fix: remove deprecated S3 ACL from CF \[skip ci] by [@agoldis](https://github.com/agoldis) in [#819](https://github.com/sorry-cypress/sorry-cypress/pull/819)
+
+### New Contributors
+
+* [@pavlospt](https://github.com/pavlospt) made their first contribution in [#759](https://github.com/sorry-cypress/sorry-cypress/pull/759)
+* [@mauriciovillalobos](https://github.com/mauriciovillalobos) made their first contribution in [#807](https://github.com/sorry-cypress/sorry-cypress/pull/807)
+
+**Full Changelog**: [v2.5.7...v2.5.8](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.7...v2.5.8)
+
 ## v2.5.7
 
 ### What's Changed
