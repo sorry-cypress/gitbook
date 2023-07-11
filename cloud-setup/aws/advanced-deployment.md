@@ -4,7 +4,6 @@ description: Sorry-cypress installation instructions for AWS Advanced Deployment
 
 # AWS Advanced Deployment
 
-
 ## Stack Overview
 
 The advanced deployment uses ECS to run sorry-cypress services, and has many parameters for customization.
@@ -13,12 +12,14 @@ Here are the main differences between this template and the simple deployment te
 
 1. Does not create a VPC
 
-   This template expects a VPC, subnets and routing to exist already. If you don't have any of this deployed in the account yet, use the VPC deployment wizard in the AWS VPC console. At a minimum, you need:
+   This template expects a VPC, subnets and routing to exist already. If you don't have any of this deployed in the account yet, deploy the standard-networking CloudFormation template and it will deploy:
 
-   - a VPC
-   - 1 private subnets
+   - 2 public subnets
+   - 2 private subnets
+   - an Internet Gateway
    - a NAT Gateway
-   - route tables for the private subnets
+   - route tables
+   - all required attachments and associations
 
 2. Deploy a remote DB
 
@@ -56,79 +57,57 @@ The artifacts created by the stack are:
 
 Below are descriptions of the various parameters in this template and what they do.
 
+### Network Configuration
+
+`VPC`
+
+The VPC in which to deploy sorry-cypress. This can be a pre-existing VPC or the one deployed by the standard-networking template.
+
+`PrivateSubnets`
+
+At least one private subnet for the deployment.
+
+`LoadBalancerScheme`
+
+The scheme for the load balancer: internet-facing or internal. If you're deploying an internet-facing load balancer, select public subnets for the `LoadBalancerSubnets` parameter. If internal, select private subnets.
+
+`LoadBalancerSubnets`
+
+The subnets in which to deploy the user-facing load balancer. These can be public or private, depending on your needs.
+
+### Security Configuration
+
 `AccessCIDR`
 
 The CIDR range that is allowed to reach the sorry-cypress front-end load balancer.
+
+This CIDR range is permitted to the load balancer via it's attached security group.
+
+More ranges can be added by hand later on, if need be.
+
+`AllowedCIDRRanges`
+
+A comma-separated list of CIDR ranges that can download from the S3 bucket.
+
+Keep in mind that downloads come from your browser when access the sorry-cypress dashboard, so these CIDR ranges should be / include the IP address from which you and other users will access sorry-cypress.
+
+In most cases, this will be the same as the `AccessCIDR` parameter.
+
+Example: `1.1.1.1/32,2.2.2.2/32`
 
 `ACMCertificateArn`
 
 The ARN of a verified ACM certificate. This is attached to the sorry-cypress front-end load balancer to provide HTTPS access to the dashboard.
 
-`AllowedPublicIps`
-
-A comma-separated list of CIDR ranges that can download from the S3 bucket. Keep in mind that downloads come from your browser when access the sorry-cypress dashboard, so these CIDR ranges should be / include the IP address from which you and other users will access sorry-cypress. Example: 1.1.1.1/32,2.2.2.2/32
-
-`DBInstanceClass (default: db.t3.medium)`
-
-(Conditional) The class for the DB instance, if using a remote database. If using a local database, this can be ignored.
-
-`DBPassword`
-
-(Conditional) The password for the database, if using a remote database. If using a local database, this can be ignored.
-
-`DBType (default: remote)`
-
-(Conditional) The type of database. If `remote`, a DocumentDB database will be created which runs externally from the ECS cluster. If `local`, a mongodb container will run in the ECS tasks.
-
-`DockerUsername`
-
-(Optional) The username to dockerhub, for authenticating when pulling the sorry-cypress images.
-
-`DockerPassword`
-
-(Optional) The password to dockerhub, for authenticating when pulling the sorry-cypress images.
-
-`MinCapacityOn (default: 1)`
-
-The minimum number of sorry-cypress tasks to run during "on" hours.
-
-`MinCapacityOff (default: 0)`
-
-The minimum number of sorry-cypress tasks to run during "off" hours.
-
-`MaxCapacityOn (default: 2)`
-
-The maximum number of sorry-cypress tasks to run during "on" hours.
-
-`MaxCapacityOff (default: 0)`
-
-The maximum number of sorry-cypress tasks to run during "off" hours.
-
-`ScaleUpHour (default: 5)`
-
-The hour in EST (24-hour format) at which to scale up the sorry-cypress service tasks each day.
-
-`ScaleDownHour (default: 23)`
-
-The hour in EST (24-hour format) at which to scale down the sorry-cypress service tasks each day.
-
-`SorryCypressVersion (default: latest)`
-
-The version tag of the sorry-cypress image to pull when starting the tasks.
-
 `S3ObjectACL (default: public-read)`
 
 The ACL to apply to uploaded objects in S3 (videos and screenshots). This value
 will be set in the pre-signed URL that sorry-cypress generates when a job is about
-to upload something to the S3 bucket. The recommended value is `public-read`. The bucket, however, will not be fully public. It will have a bucket policy that restricts downloads to CIDR ranges that you provide.
+to upload something to the S3 bucket.
 
-`S3LifecycleExpirationDays (default: 7)`
+The recommended value is `public-read`. The bucket, however, will not be fully public. It will have a bucket policy that restricts downloads to CIDR ranges that you provide.
 
-The number of days after which to expire objects in the screenshots storage S3 bucket
-
----
-
-### From the simple deployment template
+### ECS Task Configuration
 
 `TaskCpu (default: 1024)`
 
@@ -142,7 +121,65 @@ The amount of memory units dedicated to running the services. This resource is a
 
 The port number for accessing the director service. You'll need to use it as a destination when [configuring cypress agents](../../integrating-cypress/configuring-cypress-agent.md).
 
-### AWS Pricing
+`SorryCypressVersion (default: latest)`
+
+The version tag of the sorry-cypress image to pull when starting the tasks.
+
+`DockerUsername`
+
+(Optional) The username to dockerhub, for authenticating when pulling the sorry-cypress images.
+
+`DockerPassword`
+
+(Optional) The password to dockerhub, for authenticating when pulling the sorry-cypress images.
+
+### Screenshots Storage Configuration
+
+`S3LifecycleExpirationDays (default: 7)`
+
+The number of days after which to expire objects in the screenshots storage S3 bucket
+
+### Database Configuration
+
+`DBType (default: remote)`
+
+The type of database. If `remote`, a DocumentDB database will be created which runs externally from the ECS cluster. If `local`, a mongodb container will run in the ECS tasks.
+
+`DBInstanceClass (default: db.t3.medium)`
+
+(Conditional) The class for the DB instance, if using a remote database. If using a local database, this can be ignored.
+
+`DBPassword`
+
+(Conditional) The password for the database, if using a remote database. If using a local database, this can be ignored.
+
+### Scheduled Scaling Configuration
+
+`MinCapacityOff (default: 0)`
+
+The minimum number of sorry-cypress tasks to run during "off" hours.
+
+`MinCapacityOn (default: 1)`
+
+The minimum number of sorry-cypress tasks to run during "on" hours.
+
+`MaxCapacityOff (default: 0)`
+
+The maximum number of sorry-cypress tasks to run during "off" hours.
+
+`MaxCapacityOn (default: 2)`
+
+The maximum number of sorry-cypress tasks to run during "on" hours.
+
+`ScaleUpHour (default: 5)`
+
+The hour in EST (24-hour format) at which to scale up the sorry-cypress service tasks each day.
+
+`ScaleDownHour (default: 23)`
+
+The hour in EST (24-hour format) at which to scale down the sorry-cypress service tasks each day.
+
+## AWS Pricing
 
 You're only paying for AWS resources. Here's a rough estimator of price / month for using the resources used. The actual usage might be higher (or lower) based on actual usage
 
