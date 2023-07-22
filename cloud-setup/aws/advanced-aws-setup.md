@@ -9,7 +9,7 @@ description: Advanced installation of Sorry Cypress on AWS
 The advanced deployment uses ECS to run sorry-cypress services and has many parameters for customization.
 
 {% hint style="info" %}
-Download [AWS  CloudFormation Template for Sorry Cypress](https://github.com/sorry-cypress/sorry-cypress/blob/master/cloudformation/sorry-cypress-advanced-deployment.yml)
+Download [Advanced AWS CloudFormation Template for Sorry Cypress](https://github.com/sorry-cypress/sorry-cypress/blob/master/cloudformation/sorry-cypress-advanced-deployment.yml)
 {% endhint %}
 
 Here are the main differences between this template and the simple deployment template.
