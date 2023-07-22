@@ -14,7 +14,7 @@ We've just launched `director` service on [`http://localhost:1234`](http://local
 
 ### Install and configure cypress-cloud and cypress
 
-``[`cypress-cloud`](https://github.com/currents-dev/cypress-cloud) is an open-source tool for integrating Cypress with alternative cloud services like Currents or Sorry Cypress.
+[`cypress-cloud`](https://github.com/currents-dev/cypress-cloud) is an open-source tool for integrating Cypress with alternative cloud services like Currents or Sorry Cypress.
 
 ```bash
 npm install cypress-cloud cypress
@@ -55,13 +55,13 @@ Let's open several terminal windows and run `cy2` in each. Make sure you have cy
 npx cypress-cloud run --parallel --record --key somekey --ci-build-id hello-cypress
 ```
 
-You'll notice that different instances of cypress agents are running different tests.&#x20;
+You'll notice that different instances of cypress agents are running different tests.
 
 🎉 We've just finished the basic setup of sorry-cypress and ran our tests in parallel!
 
 {% hint style="info" %}
 * Use the same `--ci-build-id` to associate different cypress agents with the same run
-* You can run as many [cypress agents](../concepts/parallelization-guide.md) as you want - each  will run a different test suite
+* You can run as many [cypress agents](../concepts/parallelization-guide.md) as you want - each will run a different test suite
 * This basic `director` configuration keeps all the test results in memory. Restarting it wipes all the data
 * `--key` and `projectId` do not have any effect on the basic setup
 {% endhint %}
