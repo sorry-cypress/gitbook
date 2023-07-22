@@ -11,6 +11,9 @@
 ## Cloud <a href="#cloud-setup" id="cloud-setup"></a>
 
 * [AWS](cloud-setup/aws/README.md)
+  * [Basic AWS Setup](cloud-setup/aws/basic-aws-setup.md)
+  * [Advanced AWS Setup](cloud-setup/aws/advanced-aws-setup.md)
+  * [AWS Networking](cloud-setup/aws/aws-networking.md)
   * [AWS S3 Manual Setup](cloud-setup/aws/aws-s3-storage.md)
 * [Google Cloud](cloud-setup/google-cloud/README.md)
   * [Google Cloud & MinIO - Deprecated](cloud-setup/google-cloud/google-cloud.md)
