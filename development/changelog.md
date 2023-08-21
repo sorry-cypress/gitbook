@@ -4,6 +4,24 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.9
+
+### What's Changed
+
+* build(deps): bump word-wrap from 1.2.3 to 1.2.4 by [@dependabot](https://github.com/dependabot) in [#823](https://github.com/sorry-cypress/sorry-cypress/pull/823)
+* Make CFT more robust by [@crux-capacitor](https://github.com/crux-capacitor) in [#812](https://github.com/sorry-cypress/sorry-cypress/pull/812)
+* docs: add crux-capacitor as a contributor for infra, and doc by [@allcontributors](https://github.com/allcontributors) in [#826](https://github.com/sorry-cypress/sorry-cypress/pull/826)
+* Update slack.ts for improved newline formatting by [@amartinez1558](https://github.com/amartinez1558) in [#838](https://github.com/sorry-cypress/sorry-cypress/pull/838)
+* Issues 804 : Add test chips status to projectList view by [@samixchoumi](https://github.com/samixchoumi) in [#833](https://github.com/sorry-cypress/sorry-cypress/pull/833)
+
+### New Contributors
+
+* [@crux-capacitor](https://github.com/crux-capacitor) made their first contribution in [#812](https://github.com/sorry-cypress/sorry-cypress/pull/812)
+* [@amartinez1558](https://github.com/amartinez1558) made their first contribution in [#830](https://github.com/sorry-cypress/sorry-cypress/pull/830)
+* [@samixchoumi](https://github.com/samixchoumi) made their first contribution in [#833](https://github.com/sorry-cypress/sorry-cypress/pull/833)
+
+**Full Changelog**: [v2.5.8...v2.5.9](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.8...v2.5.9)
+
 ## v2.5.8
 
 ### What's Changed
@@ -546,7 +564,7 @@ See the complete list of changes on GitHub https://github.com/sorry-cypress/sorr
 
 ### Added
 
-* Sorry Cypress is now able to detect stale runs and properly report RUN\_FINISH hook using I[nactivity Timeout.](broken-reference) That includes. more complex cases when multiple spec groups involved.
+* Sorry Cypress is now able to detect stale runs and properly report RUN\_FINISH hook using I[nactivity Timeout.](broken-reference/) That includes. more complex cases when multiple spec groups involved.
 * Optional [Redis](../configuration/persistent.md#redis-optional) integration via `REDIS_URI` director configuration variable.
 * Bitbucket Integration
 
