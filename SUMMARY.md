@@ -56,6 +56,9 @@
 ## Concepts
 
 * [Parallelization Explained](concepts/parallelization-guide.md)
+* [Flaky Tests](tests/flaky-tests.md)
+* [Test Details](tests/test-details.md)
+* [Test Status](tests/test-status.md)
 
 ## CI
 
