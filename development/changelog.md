@@ -4,7 +4,7 @@ description: Sorry Cypress changelog
 
 # Changelog
 
-### v2.5.10
+## v2.5.10
 
 ### What's Changed
 
