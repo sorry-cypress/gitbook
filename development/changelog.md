@@ -4,6 +4,19 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+### v2.5.10
+
+### What's Changed
+
+* build(deps): bump apollo-server-core from 3.11.1 to 3.12.1 by [@dependabot](https://github.com/dependabot) in [#846](https://github.com/sorry-cypress/sorry-cypress/pull/846)
+* build(deps): bump mongodb from 3.6.8 to 3.6.10 by [@dependabot](https://github.com/dependabot) in [#847](https://github.com/sorry-cypress/sorry-cypress/pull/847)
+* Count all groups of a run for projects view by [@agoldis](https://github.com/agoldis) in [#852](https://github.com/sorry-cypress/sorry-cypress/pull/852)
+* build(deps): change pac-resolver to 7.0.0 by [@mathpaquette](https://github.com/mathpaquette) in [#856](https://github.com/sorry-cypress/sorry-cypress/pull/856)
+* Add a background color for each project of /project page by [@samixchoumi](https://github.com/samixchoumi) in [#842](https://github.com/sorry-cypress/sorry-cypress/pull/842)
+* docs: add samixchoumi as a contributor for code by [@allcontributors](https://github.com/allcontributors) in [#855](https://github.com/sorry-cypress/sorry-cypress/pull/855)
+
+**Full Changelog**: [v2.5.9...v2.5.10](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.9...v2.5.10)
+
 ## v2.5.9
 
 ### What's Changed
