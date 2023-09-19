@@ -25,7 +25,7 @@
 ## Integrating Cypress
 
 * [Integration options](integrating-cypress/integration-options.md)
-* [cy2](integrating-cypress/cy2.md)
+* [cy2 - Deprecated](integrating-cypress/cy2.md)
 * [Agent Configuration - Deprecated](integrating-cypress/configuring-cypress-agent.md)
 * [CLI One Liners - Deprecated](integrating-cypress/cli-one-liners.md)
 

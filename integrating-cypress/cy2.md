@@ -1,12 +1,16 @@
-# cy2
+# cy2 - Deprecated
 
-{% hint style="info" %}
-Cypress introduced a breaking change in version 12. Please consider using `cypress-cloud` integration tool instead of cy2
+{% hint style="warning" %}
+Cypress introduced a breaking change in version 12. Please use`cypress-cloud`  integration package.&#x20;
+
+
+
+cy2 is deprecated.
 {% endhint %}
 
 `cy2` is an [NPM package](https://www.npmjs.com/package/cy2) that Integrates Cypress with alternative cloud services like Sorry Cypress or Currents by setting the environment variable `CYPRESS_API_URL.`
 
-The command passes down to cypress all the CLI flags, so you can just use it instead of `cypress`&#x20;
+The command passes down to cypress all the CLI flags, so you can just use it instead of `cypress`
 
 ```bash
 $ npm install -g cy2
@@ -28,7 +32,7 @@ Add the shell app of your choice to the allowed list.
 
 **Mac OS Settings > Privacy and Security > App Management**
 
-![cy2 EPERM - adding shell to App Management allowed list](<../.gitbook/assets/CleanShot 2022-11-03 at 00.04.10@2x.png>)
+<img src="../.gitbook/assets/CleanShot 2022-11-03 at 00.04.10@2x.png" alt="cy2 EPERM - adding shell to App Management allowed list" data-size="original">
 {% endhint %}
 
-****
+***
