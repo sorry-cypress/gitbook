@@ -42,6 +42,9 @@ After successfully running docker-compose, we have:
 
 Open the dashboard at [http://localhost:8080](http://localhost:8080)
 
+Create a project with the id you wrote as value for `projectId` in
+your `currents.config.js` file (e.g., "yyy").
+
 ![Empty sorry-cypress dashboard](../.gitbook/assets/empty-dashboard.png)
 
 ### Setup Screenshots Upload
