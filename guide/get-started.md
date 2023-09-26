@@ -48,7 +48,7 @@ module.exports = defineConfig({
 
 ### Running cypress tests in parallel <a href="#running-cypress-tests-in-parallel" id="running-cypress-tests-in-parallel"></a>
 
-Let's open several terminal windows and run `cy2` in each. Make sure you have cypress tests defined in advance.
+Let's open several terminal windows and run `cypress-cloud` in each. Make sure you have cypress tests defined in advance.
 
 ```bash
 # run in each terminal
