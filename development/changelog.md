@@ -4,6 +4,15 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+## v2.5.11
+
+### What's Changed
+
+* build(deps): bump systeminformation from 5.8.7 to 5.21.8 by [@dependabot](https://github.com/dependabot) in [#857](https://github.com/sorry-cypress/sorry-cypress/pull/857)
+* Issues 862 : Add button to see background color & running tests by [@samixchoumi](https://github.com/samixchoumi) in [#863](https://github.com/sorry-cypress/sorry-cypress/pull/863)
+
+**Full Changelog**: [v2.5.10...v2.5.11](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.10...v2.5.11)
+
 ## v2.5.10
 
 ### What's Changed
