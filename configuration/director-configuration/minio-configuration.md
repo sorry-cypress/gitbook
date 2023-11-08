@@ -76,7 +76,10 @@ Hostname or IP address that **both `director` and cypress agents** (see the deta
 
 You can override the whole read URL, including the bucket name using this variable. Most chances you won't need it, if you do, see the [source code](https://github.com/sorry-cypress/sorry-cypress/blob/master/packages/director/src/screenshots/minio/minio.ts#L42).
 
+`MINIO_UPLOAD_URL_PREFIX=null`
 
+Override the upload URL. The updated URL is not valid because the host is part of the presigned url signature. A reverse proxy, ingress controller or 
+api gateway will be responsible for reversing this translation, into the original URL, before passing the upload request to Minio.
 
 `MINIO_USESSL="false"`
 
