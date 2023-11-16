@@ -79,7 +79,8 @@ You can override the whole read URL, including the bucket name using this variab
 `MINIO_UPLOAD_URL_PREFIX=null`
 
 Override the upload URL. The updated URL is not valid because the host is part of the presigned url signature. A reverse proxy, ingress controller or 
-api gateway will be responsible for reversing this translation, into the original URL, before passing the upload request to Minio.
+api gateway will be responsible for reversing this translation, into the original URL, before passing the upload request to Minio. For example
+by setting the `Host` header to the backend hostname.
 
 `MINIO_USESSL="false"`
 
