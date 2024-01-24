@@ -4,6 +4,22 @@ description: Sorry Cypress changelog
 
 # Changelog
 
+### v2.6.0
+
+#### What's Changed
+
+* fix: resolve multiple illegal characters in document keys by [@liamchilds](https://github.com/liamchilds) in [#881](https://github.com/sorry-cypress/sorry-cypress/pull/881)
+* feat(minio): support for upload to proxied minio by [@erikmartino](https://github.com/erikmartino) in [#876](https://github.com/sorry-cypress/sorry-cypress/pull/876)
+* docs: add erikmartino as a contributor for code by [@allcontributors](https://github.com/allcontributors) in [#882](https://github.com/sorry-cypress/sorry-cypress/pull/882)
+* Cypress 13 Compatibility for the Dashboard and Director by [@Roemer](https://github.com/Roemer) in [#892](https://github.com/sorry-cypress/sorry-cypress/pull/892)
+
+#### New Contributors
+
+* [@liamchilds](https://github.com/liamchilds) made their first contribution in [#881](https://github.com/sorry-cypress/sorry-cypress/pull/881)
+* [@erikmartino](https://github.com/erikmartino) made their first contribution in [#876](https://github.com/sorry-cypress/sorry-cypress/pull/876)
+
+**Full Changelog**: [v2.5.11...v2.6.0](https://github.com/sorry-cypress/sorry-cypress/compare/v2.5.11...v2.6.0)
+
 ## v2.5.11
 
 ### What's Changed
