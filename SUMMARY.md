@@ -20,7 +20,7 @@
 * [Microsoft Azure](cloud-setup/azure.md)
 * [Heroku](cloud-setup/heroku.md)
 * [Kubernetes](cloud-setup/kubernetes.md)
-* [Docker Images](cloud-setup/docker-images/README.md)
+* [Docker Images](cloud-setup/docker-images.md)
 
 ## Integrating Cypress
 
@@ -56,9 +56,9 @@
 ## Concepts
 
 * [Parallelization Explained](concepts/parallelization-guide.md)
-* [Flaky Tests](tests/flaky-tests.md)
-* [Test Details](tests/test-details.md)
-* [Test Status](tests/test-status.md)
+* [Flaky Tests](concepts/flaky-tests.md)
+* [Test Details](concepts/test-details.md)
+* [Test Status](concepts/test-status.md)
 
 ## CI
 

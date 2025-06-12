@@ -4,8 +4,7 @@ Sorry-cypress integrates with [MS Teams Webhooks](https://docs.microsoft.com/en-
 
 ![](../.gitbook/assets/teams-hook.png)
 
-If you are using the in-memory director and do not have a dashboard you can add hooks to your project via a HTTP `POST` to the `/hooks` route of your director. 
-Ensure your "projectId" matches that in your cypress.json or cypress.config.js that you wish to add hooks to. Note this will replace all the hooks for the given projectId.
+If you are using the in-memory director and do not have a dashboard you can add hooks to your project via a HTTP `POST` to the `/hooks` route of your director. Ensure your "projectId" matches that in your cypress.json or cypress.config.js that you wish to add hooks to. Note this will replace all the hooks for the given projectId.
 
 ```
 //Example POST body to localhost:1234/hooks

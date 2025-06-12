@@ -21,7 +21,7 @@ Director service is responsible for
 * saving tests results
 * generating signed upload URL for saving failed tests screenshots
 
-When you launch Cypress agents on a CI environment with multiple machines, each agent contacts the director service and gets instructions on the next spec file to run. 
+When you launch Cypress agents on a CI environment with multiple machines, each agent contacts the director service and gets instructions on the next spec file to run.
 
 After running the test spec, the agent reports the results to the Director service, receives the instructions for the next run, and so on until all the tests are done.
 
@@ -29,7 +29,7 @@ The director service coordinates those activities for multiple agents and differ
 
 Full setup requires the director to run in "persisting" mode to use MongoDB driver and provide credentials.,
 
-```text
+```
 EXECUTION_DRIVER="../execution/mongo/driver"
 MONGODB_URI="monodgb://your-DB-URI"
 MONGODB_DATABASE="your-DB-name"
@@ -52,7 +52,7 @@ The dashboard allows end-users to interact with sorry-cypress using a browser an
 * track test runs progress
 * browser test results, videos, and failures screenshots
 * set projects configuration like WebHooks, Slack, MS Teams and GitHub integration
-* create and delete entries \(projects, runs\)
+* create and delete entries (projects, runs)
 
 Also, see [Dashboard Configuration](dashboard-configuration/) options.
 
@@ -67,7 +67,7 @@ We need remote storage to store the generated screenshots and videos. Director s
 Sorry-cypress integrates with the major remote cloud storage solutions:
 
 * AWS S3
-* Minio integration \(via [Minio S3 Gateway](https://docs.min.io/docs/minio-gateway-for-s3.html)\) that is compatible with
+* Minio integration (via [Minio S3 Gateway](https://docs.min.io/docs/minio-gateway-for-s3.html)) that is compatible with
   * Google Cloud Storage
   * IBM COS
   * NAS
@@ -76,7 +76,7 @@ Sorry-cypress integrates with the major remote cloud storage solutions:
 
 To disable remote storage, we need to set a "dummy" screenshots driver for Director service.
 
-```text
+```
 SCREENSHOTS_DRIVER="../screenshots/dummy.driver"
 ```
 
@@ -88,9 +88,8 @@ Refer to specific cloud platform instructions for remote cloud storage configura
 
 ### MongoDB
 
-Director and API services work with MongoDB as a persistency layer. It's up to you to choose MongoDB solution that works for your needs. 
+Director and API services work with MongoDB as a persistency layer. It's up to you to choose MongoDB solution that works for your needs.
 
 [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) is a simple and popular managed solution that also has a free tier.
 
-[AWS DocumentDB](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html) is a managed NoSQL DB in AWS which is [partially compatible](https://docs.aws.amazon.com/documentdb/latest/developerguide/compatibility.html) to the MongoDB API.
-It has no free tier option, but can be still be a suitable option. Sorry-cypress added compatibility in [v1.0.0-rc.8](https://github.com/sorry-cypress/sorry-cypress/releases/tag/v1.0.0-rc.8)
+[AWS DocumentDB](https://docs.aws.amazon.com/documentdb/latest/developerguide/what-is.html) is a managed NoSQL DB in AWS which is [partially compatible](https://docs.aws.amazon.com/documentdb/latest/developerguide/compatibility.html) to the MongoDB API. It has no free tier option, but can be still be a suitable option. Sorry-cypress added compatibility in [v1.0.0-rc.8](https://github.com/sorry-cypress/sorry-cypress/releases/tag/v1.0.0-rc.8)

@@ -4,13 +4,9 @@
 
 Dashboard will listen on that port
 
-
-
 `GRAPHQL_SCHEMA_URL="http://localhost:4000"`
 
 The publicly accessible URL of API service. GraphQL client will use it to pull schema definitions and issue queries.
-
-
 
 `CI_URL=Link name,https://your.ci.service/project/{project_id}/build/{build_id}`
 
@@ -22,7 +18,4 @@ Set optional environment variable `CI_URL` to add a link to your CI tool.
 
 Example:
 
-![](../../.gitbook/assets/ci_url.png)
-
-
-
+![](../../.gitbook/assets/CI_URL.png)
