@@ -7,10 +7,10 @@ description: Running sorry-cypress in cloud - AWS, Google Cloud, K8s, Heroku
 ### Cloud Demo
 
 {% hint style="info" %}
-This demo runs on a free public Heroku instance, it takes a minute to wake it up when you first navigate&#x20;
+This demo runs on a free public Heroku instance, it takes a minute to wake it up when you first navigate
 {% endhint %}
 
-Visit [https://sorry-cypress-demo.herokuapp.com/](https://sorry-cypress-demo.herokuapp.com/) to see the web dashboard in action.&#x20;
+Visit [https://sorry-cypress-demo.herokuapp.com/](https://sorry-cypress-demo.herokuapp.com/) to see the web dashboard in action.
 
 Start sending your cypress tests to the demo dashboard by using the following command:
 
@@ -20,7 +20,7 @@ CYPRESS_API_URL="https://sorry-cypress-demo-director.herokuapp.com/" cy2 run --p
 
 ### Cloud Providers
 
-Now you can consider deploying it on your own infrastructure.&#x20;
+Now you can consider deploying it on your own infrastructure.
 
 Each service is available as a standalone Docker image at [https://hub.docker.com/u/agoldis](https://hub.docker.com/u/agoldis). The images are automatically updated on each release and tagged in accordance with GitHub release tags.
 
@@ -36,7 +36,7 @@ Sorry-cypress has been successfully used by many organizations of different size
 Check out the rest of the documentation for deployment instructions.
 
 {% hint style="success" %}
-Congratulations! You have completed the guide.&#x20;
+Congratulations! You have completed the guide.
 
 * ⭐️ us on [GitHub](https://github.com/sorry-cypress/sorry-cypress)
 * Learn how to [Contribute](../contributions.md)
@@ -45,6 +45,5 @@ Congratulations! You have completed the guide.&#x20;
 {% endhint %}
 
 {% hint style="info" %}
-**New!** Managed, cloud-based affordable alternative to Cypress Cloud without the overhead of managing your own infrastructure at [https://currents.dev](https://currents.dev)
+**New!** Managed, cloud-based affordable alternative to Cypress Cloud without the overhead of managing your own infrastructure at [https://currents.dev](https://currents.dev/cypress-to-playwright?utm_source=docs-sc)
 {% endhint %}
-

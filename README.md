@@ -24,7 +24,7 @@ Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress 
 
 Sorry Cypress is 100% open source project, if you're happy to manage your own infrastructure, please continue reading our [guides](guide/get-started.md) and installation instructions.
 
-[https://currents.dev](https://currents.dev/?utm\_source=docs-sc) is a cloud-based, production-grade, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
+[https://currents.dev](https://currents.dev/cypress-to-playwright?utm_source=docs-sc) is a cloud-based, production-grade, affordable alternative to Cypress Dashboard. It is based on sorry-cypress and provides many of the original dashboard features - without the overhead of managing your own infrastructure.
 
 Check out the [Cypress Dashboard vs. Currents Guide.](https://currents.dev/posts/currents-vs-cypress)
 
@@ -41,4 +41,4 @@ Looking for help with installation and / or features? Check out our [Support](su
 ## 🤙 Stay in touch
 
 * Follow [@sorrycypress](https://twitter.com/sorrycypress) to get the latest updates
-* Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared\_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
+* Join our public [Slack](https://join.slack.com/t/sorry-cypress/shared_invite/zt-eis1h6jl-tJELaD7q9UGEhMP8WHJOaw) channel
