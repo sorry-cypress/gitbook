@@ -4,6 +4,16 @@
 
 Sorry-cypress is an open-source, on-premise, self-hosted alternative to Cypress Cloud 🌲
 
+
+
+{% hint style="warning" %}
+This project is not affiliated with Cypress.io, Inc., and is not an official Cypress product. “Cypress” is a registered trademark of Cypress.io, Inc. This project is an open-source alternative to Cypress.&#x20;
+
+
+
+For the official Cypress Cloud offering, visit https://cypress.io.
+{% endhint %}
+
 ## ⭐️ Features
 
 * Run cypress tests in parallel without dashboard, no limitations
